@@ -1,35 +1,42 @@
 # ResumeToWord
 
-SEO-first resume PDF to editable DOCX converter. Product contract: `ResumeToWord_PRD.docx`. Agents work from the Obsidian vault and the internal kanban.
+Convert a resume PDF into an editable Word document (DOCX) you can review and update in a familiar editor.
 
-License: [MIT](LICENSE).
+Upload one PDF, convert it, download `resume-editable.docx`, then review locally. Formatting may change — always check the result before you send it to an employer.
 
-## Open the knowledge graph
+## What it does
 
-1. Install [Obsidian](https://obsidian.md).
-2. Open folder `vault/` as the vault (not the repo root).
-3. Enable community plugins **Kanban** and **Dataview**, or trust the bundled settings and install those two.
-4. Open `00 Home.md`, then `board/SDLC Kanban.md`.
-5. Open Graph view to see product → spec → story links.
+- Accepts a single resume PDF (anonymous, no account)
+- Returns editable native DOCX text (not image-only pages)
+- Surfaces honest quality warnings when layout, fonts, or columns may need review
+- Deletes uploaded and output files after use or automatic expiry
 
-## Agent kickoff
+## Supported in P0
 
-In Cursor:
+| | |
+|---|---|
+| Input | PDF only |
+| Output | Editable DOCX |
+| Size | Up to 10 MiB |
+| Pages | 1–5 |
+| Layout | Single-column baseline; two-column best effort |
 
-1. Read `AGENTS.md`.
-2. Invoke the `sdlc-orchestrator` skill or agent.
-3. First parallel cards: `US-070` (fidelity spike) and `US-072` (hosting/cost).
-4. Do not start P1 stories. Do not write conversion code until the spike notes exist.
+Not supported yet: scanned/image-only PDFs, encrypted files, password handling, bulk conversion, or accounts.
 
-Role skills live in `.cursor/skills/`. Role agents live in `.cursor/agents/`.
+## Honesty and privacy
 
-## Planned application layout
+- No “perfect layout,” “100% accurate,” or “ATS guaranteed” claims
+- Files are processed only to convert — not for training, ads, or profiling
+- Job access uses high-entropy secrets; a job ID alone is not enough
 
-Not scaffolded yet. Create during Week 2 after the spike:
+## Project layout
 
 ```
 apps/web/          Next.js marketing, converter UI, job API
 workers/convert/   Isolated Python conversion workers
-infra/             Queue, storage, worker runtime
-vault/             Knowledge graph + kanban
+infra/             Queue, storage, and worker runtime
 ```
+
+## License
+
+[MIT](LICENSE)
