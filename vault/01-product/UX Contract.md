@@ -9,7 +9,7 @@ aliases:
 
 # UX contract
 
-Implements [[Product Vision]] and R03/R04. Spec: [[SPEC-UI]]. Accessibility: [[SPEC-A11Y]].
+Implements [[Product Vision]] and R03/R04. Spec: [[SPEC-UI]]. Accessibility: [[SPEC-A11Y]]. Motion: [[Motion Design Direction]].
 
 ## Upload surface
 
@@ -44,6 +44,14 @@ Distinguish server preparation of a download from evidence that the user saved o
 | Delete or cancel | Revoke access immediately, show deletion in progress, confirm after storage and worker cleanup. Never claim deleted while merely queued. |
 | Expired result | Neutral expiry message and a fresh upload action. Lost session credentials cannot be recovered by email in P0. |
 
+## Motion
+
+Direction: [[Motion Design Direction]].
+
+Use purposeful, slightly snappy-professional motion to guide attention through upload → named stages → result. Prefer micro-interactions and stage/panel transitions over decorative scroll narratives.
+
+Motion must preserve this contract: tool above the fold; explicit start; named stages only (no fake percentages); dual fidelity warnings; delete in-progress then verified; Convert resume to Word as primary CTA. Honor `prefers-reduced-motion`; motion is never required to understand state.
+
 ## Accessibility and mobile
 
-Keyboard upload, visible focus, screen reader labels, live status announcements, readable contrast, buttons that work on small screens. Target WCAG 2.2 AA verification for the core workflow.
+Keyboard upload, visible focus, screen reader labels, live status announcements, readable contrast, buttons that work on small screens. Target WCAG 2.2 AA verification for the core workflow. See also [[SPEC-A11Y]] motion rules and [[Motion Design Direction]] reduced-motion fallbacks.

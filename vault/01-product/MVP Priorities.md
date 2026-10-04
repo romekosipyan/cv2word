@@ -15,7 +15,7 @@ P0 is required for public MVP. P1 is the next gated iteration. P2 is later or ex
 |---|---|---|---|
 | R01 | P0 | Anonymous single PDF upload with browser and server validation | [[US-001]], [[US-002]] |
 | R02 | P0 | Convert supported text-based PDFs into editable DOCX using isolated Python workers | [[US-010]], [[US-011]], [[US-012]] |
-| R03 | P0 | Accessible upload, named processing stages, result download, and actionable failures | [[US-004]], [[US-020]], [[US-021]], [[US-060]] |
+| R03 | P0 | Accessible upload, named processing stages, result download, and actionable failures | [[US-004]], [[US-020]], [[US-021]], [[US-060]], [[US-120]] |
 | R04 | P0 | Quality warnings, support boundaries, and review checklist; no exact fidelity claim | [[US-022]], [[US-050]] |
 | R05 | P0 | Private job access, deletion control, automated expiry, and deletion verification | [[US-030]], [[US-031]], [[US-032]] |
 | R06 | P0 | Abuse controls, resource caps, redacted operational metrics, and incident alerts | [[US-040]], [[US-041]], [[US-043]] |

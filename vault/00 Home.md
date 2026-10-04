@@ -30,6 +30,7 @@ SEO-first resume PDF to editable DOCX converter. Agents start here, then follow 
 - [[MVP Priorities]]
 - [[Supported Files and Limits]]
 - [[UX Contract]]
+- [[Motion Design Direction]]
 
 ## Delivery artifacts
 
