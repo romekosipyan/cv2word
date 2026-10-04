@@ -1,0 +1,54 @@
+{
+  "id": "two-column-02",
+  "class": "two_column",
+  "name": "Casey Fixture",
+  "email": "casey@example.test",
+  "phone": "+1-555-0102",
+  "dates": [
+    "January 2017 – May 2019",
+    "August 2015 – December 2016",
+    "March 2021 – Present"
+  ],
+  "employers": [
+    "Fixture Works",
+    "Placeholder Inc",
+    "Mock Industries"
+  ],
+  "jobs": [
+    [
+      "Fixture Works",
+      "January 2017 – May 2019",
+      "Visual Designer"
+    ],
+    [
+      "Placeholder Inc",
+      "August 2015 – December 2016",
+      "Design Intern"
+    ],
+    [
+      "Mock Industries",
+      "March 2021 – Present",
+      "Engineering Manager"
+    ]
+  ],
+  "page_size": "a4",
+  "pages": 1,
+  "font_index": 1,
+  "left_only": [
+    "LEFT-CONTACT-02",
+    "LEFT-SKILL-02",
+    "LEFT-EDU-02"
+  ],
+  "right_only": [
+    "RIGHT-ROLE-A-02",
+    "RIGHT-ROLE-B-02",
+    "RIGHT-ROLE-C-02"
+  ],
+  "index": 1,
+  "held_out": false,
+  "expect_scan_detect": false,
+  "expected_text": "Casey Fixture\nVisual Designer\nContact\ncasey@example.test\n+1­555­0102\nLEFT­CONTACT­02\nSkills\nPython ꞏ SQL ꞏ Figma ꞏ Accessibility ꞏ\nDocumentation\nLEFT­SKILL­02\nEducation\nB.A. Design, Example University, 2015\nLEFT­EDU­02\nExperience\nVisual Designer, Fixture Works\nJanuary 2017 – May 2019\nRIGHT­ROLE­A­02. Led the Casey conversion checklist for synthetic\nonboarding at Example Labs.\nDesign Intern, Placeholder Inc\nAugust 2015 – December 2016\nRIGHT­ROLE­B­02. Led the Casey conversion checklist for synthetic onboarding\nat Example Labs.\nEngineering Manager, Mock Industries\nMarch 2021 – Present\nRIGHT­ROLE­C­02. Led the Casey conversion checklist for synthetic onboarding\nat Example Labs.\n",
+  "pdf": "fixtures/files/two-column-02.pdf",
+  "page_count": 1,
+  "source_char_count": 595
+}

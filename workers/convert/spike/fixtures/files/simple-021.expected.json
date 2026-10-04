@@ -1,0 +1,53 @@
+{
+  "id": "simple-021",
+  "class": "simple",
+  "name": "Uma Exampleberg",
+  "email": "uma@example.test",
+  "phone": "+1-555-0120",
+  "dates": [
+    "March 2021 – Present",
+    "April 2018 – February 2021",
+    "September 2016 – March 2018",
+    "May 2014 – August 2016"
+  ],
+  "employers": [
+    "Mock Industries",
+    "Synthetic Systems",
+    "Demo Studio",
+    "Testfoundry"
+  ],
+  "jobs": [
+    [
+      "Mock Industries",
+      "March 2021 – Present",
+      "Engineering Manager"
+    ],
+    [
+      "Synthetic Systems",
+      "April 2018 – February 2021",
+      "Backend Engineer"
+    ],
+    [
+      "Demo Studio",
+      "September 2016 – March 2018",
+      "Frontend Engineer"
+    ],
+    [
+      "Testfoundry",
+      "May 2014 – August 2016",
+      "QA Analyst"
+    ]
+  ],
+  "page_size": "letter",
+  "pages": 2,
+  "font_index": 0,
+  "link": null,
+  "ligatures": false,
+  "index": 20,
+  "held_out": false,
+  "expect_scan_detect": false,
+  "expected_text": "Uma Exampleberg\nEngineering Manager\numa@example.test  ꞏ  +1­555­0120\nUma Exampleberg is a fictional engineering manager used only for converter tests. This fixture contains no\nreal personal data. Work samples describe synthetic products such as the Example Labs onboarding kit\nand the Sample Corp design system.\nEngineering Manager, Mock Industries\nMarch 2021 – Present\n• Led the Uma conversion checklist for synthetic onboarding at Example Labs.\n• Wrote internal style notes so reviewers could edit role descriptions after export.\nBackend Engineer, Synthetic Systems\nApril 2018 – February 2021\n• Led the Uma conversion checklist for synthetic onboarding at Example Labs.\n• Wrote internal style notes so reviewers could edit role descriptions after export.\nFrontend Engineer, Demo Studio\nSeptember 2016 – March 2018\n• Led the Uma conversion checklist for synthetic onboarding at Example Labs.\n• Wrote internal style notes so reviewers could edit role descriptions after export.\nPython ꞏ SQL ꞏ Figma ꞏ Accessibility ꞏ Documentation\nB.A. Design, Example University, 2015\n\nQA Analyst, Testfoundry  ꞏ  May 2014 – August 2016\n• Extended the synthetic corpus with extra pages for pagination checks.\n• Kept facts stable across Letter and A4 variants.\n• Reviewed heading and bullet boundaries after export.\n",
+  "pdf": "fixtures/files/simple-021.pdf",
+  "page_count": 2,
+  "source_char_count": 1098
+}

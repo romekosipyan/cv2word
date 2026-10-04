@@ -1,0 +1,6 @@
+# US-010 convert worker — pin exact conversion-stack versions (US-070 spike).
+# ADR-003 accepted AGPL for PyMuPDF 1.28.2. Do not claim a commercial Artifex license.
+# ADR-004: stay pinned on pdf2docx 0.5.13; no fork required for this story.
+pymupdf==1.28.2
+pdf2docx==0.5.13
+python-docx==1.2.0

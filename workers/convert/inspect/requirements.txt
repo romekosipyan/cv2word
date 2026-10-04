@@ -1,0 +1,3 @@
+# Inspect-only sidecar for US-002. Pin matches US-070 spike.
+# Do not publish a worker image until ADR-003 is decided.
+pymupdf==1.28.2

@@ -1,0 +1,39 @@
+{
+  "id": "simple-005",
+  "class": "simple",
+  "name": "Eden Mock",
+  "email": "eden@example.test",
+  "phone": "+1-555-0104",
+  "dates": [
+    "March 2021 – Present",
+    "April 2018 – February 2021"
+  ],
+  "employers": [
+    "Mock Industries",
+    "Synthetic Systems"
+  ],
+  "jobs": [
+    [
+      "Mock Industries",
+      "March 2021 – Present",
+      "Engineering Manager"
+    ],
+    [
+      "Synthetic Systems",
+      "April 2018 – February 2021",
+      "Backend Engineer"
+    ]
+  ],
+  "page_size": "letter",
+  "pages": 1,
+  "font_index": 4,
+  "link": null,
+  "ligatures": false,
+  "index": 4,
+  "held_out": false,
+  "expect_scan_detect": false,
+  "expected_text": "eden@example.test  ·  +1‐555‐0104\nEden Mock is a fictional engineering manager used only for converter tests. This fixture contains no real\npersonal data. Work samples describe synthetic products such as the Example Labs onboarding kit and the\nSample Corp design system.\nMarch 2021 – Present\n• Led the Eden conversion checklist for synthetic onboarding at Example Labs.\n• Wrote internal style notes so reviewers could edit role descriptions after export.\nApril 2018 – February 2021\n• Led the Eden conversion checklist for synthetic onboarding at Example Labs.\n• Wrote internal style notes so reviewers could edit role descriptions after export.\n",
+  "pdf": "fixtures/files/simple-005.pdf",
+  "page_count": 1,
+  "source_char_count": 544
+}

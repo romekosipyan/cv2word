@@ -1,0 +1,39 @@
+{
+  "id": "simple-007",
+  "class": "simple",
+  "name": "Gray Demo",
+  "email": "gray@example.test",
+  "phone": "+1-555-0106",
+  "dates": [
+    "September 2016 – March 2018",
+    "May 2014 – August 2016"
+  ],
+  "employers": [
+    "Demo Studio",
+    "Testfoundry"
+  ],
+  "jobs": [
+    [
+      "Demo Studio",
+      "September 2016 – March 2018",
+      "Frontend Engineer"
+    ],
+    [
+      "Testfoundry",
+      "May 2014 – August 2016",
+      "QA Analyst"
+    ]
+  ],
+  "page_size": "letter",
+  "pages": 1,
+  "font_index": 1,
+  "link": "https://example.test/gray",
+  "ligatures": false,
+  "index": 6,
+  "held_out": false,
+  "expect_scan_detect": false,
+  "expected_text": "Gray Demo\nFrontend Engineer\ngray@example.test  ꞏ  +1­555­0106  ꞏ  https://example.test/gray\nGray Demo is a fictional frontend engineer used only for converter tests. This fixture contains no real personal data.\nWork samples describe synthetic products such as the Example Labs onboarding kit and the Sample Corp design\nsystem.\nFrontend Engineer, Demo Studio\nSeptember 2016 – March 2018\n• Led the Gray conversion checklist for synthetic onboarding at Example Labs.\n• Wrote internal style notes so reviewers could edit role descriptions after export.\nQA Analyst, Testfoundry\nMay 2014 – August 2016\n• Led the Gray conversion checklist for synthetic onboarding at Example Labs.\n• Wrote internal style notes so reviewers could edit role descriptions after export.\nPython ꞏ SQL ꞏ Figma ꞏ Accessibility ꞏ Documentation\nB.A. Design, Example University, 2015\n",
+  "pdf": "fixtures/files/simple-007.pdf",
+  "page_count": 1,
+  "source_char_count": 719
+}

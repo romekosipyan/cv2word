@@ -1,0 +1,13 @@
+---
+description: Privacy, authz, redaction, and verified deletion. Always apply.
+alwaysApply: true
+---
+
+# Privacy and deletion
+
+- Process files only to convert. No training, profiling, ads, SEO, or external AI/OCR in P0.
+- Never store extracted resume text in the DB, logs, queue, or analytics.
+- Job ID is not authorization. Secrets never go in URLs, referrers, or events.
+- Do not display deleted until storage, temp disks, multipart uploads, and DB reconcile.
+- Tombstones win over workers. Lifecycle policies are not proof of deletion.
+- Redact filenames, tokens, bodies, and document snapshots.

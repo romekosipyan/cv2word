@@ -1,0 +1,47 @@
+{
+  "id": "scanned-05",
+  "class": "scanned_mixed",
+  "name": "Quinn Mockwell",
+  "email": "quinn@example.test",
+  "phone": "+1-555-0116",
+  "dates": [
+    "June 2023 – Present",
+    "June 2019 – May 2023",
+    "August 2015 – December 2016"
+  ],
+  "employers": [
+    "Example Labs",
+    "Sample Corp",
+    "Placeholder Inc"
+  ],
+  "jobs": [
+    [
+      "Example Labs",
+      "June 2023 – Present",
+      "Staff Product Designer"
+    ],
+    [
+      "Sample Corp",
+      "June 2019 – May 2023",
+      "UX Designer"
+    ],
+    [
+      "Placeholder Inc",
+      "August 2015 – December 2016",
+      "Design Intern"
+    ]
+  ],
+  "page_size": "letter",
+  "pages": 2,
+  "scan_kind": "mixed_scan_then_text",
+  "font_index": 0,
+  "index": 16,
+  "held_out": true,
+  "expect_scan_detect": true,
+  "link": null,
+  "ligatures": false,
+  "expected_text": "Quinn Mockwell\nStaff Product Designer\nquinn@example.test  ꞏ  +1­555­0116\nQuinn Mockwell is a fictional staff product designer used only for converter tests. This fixture contains no\nreal personal data. Work samples describe synthetic products such as the Example Labs onboarding kit\nand the Sample Corp design system.\nStaff Product Designer, Example Labs\nJune 2023 – Present\n• Led the Quinn conversion checklist for synthetic onboarding at Example Labs.\n• Wrote internal style notes so reviewers could edit role descriptions after export.\nUX Designer, Sample Corp\nJune 2019 – May 2023\n• Led the Quinn conversion checklist for synthetic onboarding at Example Labs.\n• Wrote internal style notes so reviewers could edit role descriptions after export.\nPython ꞏ SQL ꞏ Figma ꞏ Accessibility ꞏ Documentation\nB.A. Design, Example University, 2015\n\nDesign Intern, Placeholder Inc  ꞏ  August 2015 – December 2016\n• Extended the synthetic corpus with extra pages for pagination checks.\n• Kept facts stable across Letter and A4 variants.\n• Reviewed heading and bullet boundaries after export.\n",
+  "pdf": "fixtures/files/scanned-05.pdf",
+  "page_count": 2,
+  "source_char_count": 201
+}

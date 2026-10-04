@@ -1,0 +1,54 @@
+# syntax=docker/dockerfile:1
+#
+# US-013 isolation scaffold — NOT A SHIPPABLE CONVERT WORKER IMAGE.
+#
+# - Does NOT install or COPY PyMuPDF / pdf2docx / python-docx.
+# - ADR-003 is only `recommended` (human_reviewer TBD). Do not push to a
+#   public or customer-reachable registry until ADR-003 is accepted.
+# - Local dry-run only via infra/convert-worker/docker-compose.isolation.yml
+#   (tags: LOCAL_SPIKE_ONLY).
+#
+# Image role: prove non-root, read-only root, tmpfs job temp, no egress,
+# and per-job cleanup. Engine packaging belongs to US-010 after ADR-003.
+
+FROM python:3.12-slim-bookworm
+
+LABEL org.resumetoword.story="US-013"
+LABEL org.resumetoword.image_role="isolation-scaffold-no-engine"
+LABEL org.resumetoword.publish="blocked-until-adr-003"
+LABEL org.resumetoword.local_spike_only="true"
+LABEL org.resumetoword.contains_pymupdf="false"
+
+ENV PYTHONDONTWRITEBYTECODE=1 \
+    PYTHONUNBUFFERED=1 \
+    WORKER_TMP_ROOT=/mnt/job-tmp \
+    WORKER_CPU=1 \
+    WORKER_MEMORY_MIB=1024 \
+    WORKER_TMP_MIB=256 \
+    WORKER_TIMEOUT_SECONDS=120 \
+    WORKER_RASTER_MP=20
+
+RUN apt-get update \
+    && apt-get install -y --no-install-recommends coreutils findutils \
+    && rm -rf /var/lib/apt/lists/* \
+    && groupadd --gid 10001 worker \
+    && useradd --uid 10001 --gid 10001 --home-dir /app --shell /usr/sbin/nologin --create-home worker \
+    && mkdir -p /mnt/job-tmp /app/isolation \
+    && chown -R worker:worker /app /mnt/job-tmp \
+    && chmod 0750 /mnt/job-tmp
+
+WORKDIR /app
+
+# Isolation harness only — no engine wheels.
+COPY --chown=worker:worker isolation/entrypoint.sh isolation/dry_run.py /app/isolation/
+RUN chmod 0755 /app/isolation/entrypoint.sh \
+    && chmod 0644 /app/isolation/dry_run.py
+
+USER 10001:10001
+
+# Job bytes must land on the 256 MiB tmpfs mounted at /mnt/job-tmp at runtime
+# (compose / ECS). The image filesystem is intended read-only in task defs.
+VOLUME ["/mnt/job-tmp"]
+
+ENTRYPOINT ["/app/isolation/entrypoint.sh"]
+CMD ["python3", "/app/isolation/dry_run.py"]

@@ -1,0 +1,39 @@
+{
+  "id": "simple-008",
+  "class": "simple",
+  "name": "Harper Testuser",
+  "email": "harper@example.test",
+  "phone": "+1-555-0107",
+  "dates": [
+    "May 2014 – August 2016",
+    "June 2023 – Present"
+  ],
+  "employers": [
+    "Testfoundry",
+    "Example Labs"
+  ],
+  "jobs": [
+    [
+      "Testfoundry",
+      "May 2014 – August 2016",
+      "QA Analyst"
+    ],
+    [
+      "Example Labs",
+      "June 2023 – Present",
+      "Staff Product Designer"
+    ]
+  ],
+  "page_size": "a4",
+  "pages": 1,
+  "font_index": 2,
+  "link": null,
+  "ligatures": false,
+  "index": 7,
+  "held_out": false,
+  "expect_scan_detect": false,
+  "expected_text": "QA Analyst\nharper@example.test  ∙  +1‐555‐0107\nHarper Testuser is a fictional qa analyst used only for converter tests. This fixture contains no real personal data.\nWork samples describe synthetic products such as the Example Labs onboarding kit and the Sample Corp design\nsystem.\nQA Analyst, Testfoundry\nMay 2014 – August 2016\n• Led the Harper conversion checklist for synthetic onboarding at Example Labs.\n• Wrote internal style notes so reviewers could edit role descriptions after export.\nStaff Product Designer, Example Labs\nJune 2023 – Present\n• Led the Harper conversion checklist for synthetic onboarding at Example Labs.\n• Wrote internal style notes so reviewers could edit role descriptions after export.\nPython ∙ SQL ∙ Figma ∙ Accessibility ∙ Documentation\nB.A. Design, Example University, 2015\n",
+  "pdf": "fixtures/files/simple-008.pdf",
+  "page_count": 1,
+  "source_char_count": 681
+}

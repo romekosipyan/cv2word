@@ -1,0 +1,20 @@
+# Shared context for Dockerfile.isolation (US-013) and Dockerfile (US-010).
+# Isolation COPY only pulls isolation/; engine COPY pulls engine/ + inspect + requirements.
+
+spike/
+tests/
+**/__pycache__/
+**/*.pyc
+**/.venv/
+**/venv/
+**/.pytest_cache/
+**/output/
+**/.data/
+.git/
+
+# Keep local PDF dumps out of the image; fixtures stay on the host for compose mounts.
+**/*.pdf
+
+# Docs are not needed in the runtime image.
+*.md
+README.md

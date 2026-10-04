@@ -1,0 +1,54 @@
+{
+  "id": "two-column-04",
+  "class": "two_column",
+  "name": "Logan Standin",
+  "email": "logan@example.test",
+  "phone": "+1-555-0111",
+  "dates": [
+    "August 2015 – December 2016",
+    "March 2021 – Present",
+    "April 2018 – February 2021"
+  ],
+  "employers": [
+    "Placeholder Inc",
+    "Mock Industries",
+    "Synthetic Systems"
+  ],
+  "jobs": [
+    [
+      "Placeholder Inc",
+      "August 2015 – December 2016",
+      "Design Intern"
+    ],
+    [
+      "Mock Industries",
+      "March 2021 – Present",
+      "Engineering Manager"
+    ],
+    [
+      "Synthetic Systems",
+      "April 2018 – February 2021",
+      "Backend Engineer"
+    ]
+  ],
+  "page_size": "a4",
+  "pages": 1,
+  "font_index": 3,
+  "left_only": [
+    "LEFT-CONTACT-04",
+    "LEFT-SKILL-04",
+    "LEFT-EDU-04"
+  ],
+  "right_only": [
+    "RIGHT-ROLE-A-04",
+    "RIGHT-ROLE-B-04",
+    "RIGHT-ROLE-C-04"
+  ],
+  "index": 3,
+  "held_out": false,
+  "expect_scan_detect": false,
+  "expected_text": "Logan Standin\nDesign Intern\nContact\nlogan@example.test\n+1­555­0111\nLEFT­CONTACT­04\nSkills\nPython · SQL · Figma · Accessibility ·\nDocumentation\nLEFT­SKILL­04\nEducation\nB.A. Design, Example University, 2015\nLEFT­EDU­04\nExperience\nDesign Intern, Placeholder Inc\nAugust 2015 – December 2016\nRIGHT­ROLE­A­04. Led the Logan conversion checklist for synthetic\nonboarding at Example Labs.\nEngineering Manager, Mock Industries\nMarch 2021 – Present\nRIGHT­ROLE­B­04. Led the Logan conversion checklist for synthetic\nonboarding at Example Labs.\nBackend Engineer, Synthetic Systems\nApril 2018 – February 2021\nRIGHT­ROLE­C­04. Led the Logan conversion checklist for synthetic\nonboarding at Example Labs.\n",
+  "pdf": "fixtures/files/two-column-04.pdf",
+  "page_count": 1,
+  "source_char_count": 601
+}

@@ -1,0 +1,39 @@
+{
+  "id": "simple-012",
+  "class": "simple",
+  "name": "Logan Standin",
+  "email": "logan@example.test",
+  "phone": "+1-555-0111",
+  "dates": [
+    "August 2015 – December 2016",
+    "March 2021 – Present"
+  ],
+  "employers": [
+    "Placeholder Inc",
+    "Mock Industries"
+  ],
+  "jobs": [
+    [
+      "Placeholder Inc",
+      "August 2015 – December 2016",
+      "Design Intern"
+    ],
+    [
+      "Mock Industries",
+      "March 2021 – Present",
+      "Engineering Manager"
+    ]
+  ],
+  "page_size": "a4",
+  "pages": 1,
+  "font_index": 1,
+  "link": null,
+  "ligatures": false,
+  "index": 11,
+  "held_out": false,
+  "expect_scan_detect": false,
+  "expected_text": "Logan Standin\nDesign Intern\nlogan@example.test  ꞏ  +1­555­0111\nLogan Standin is a fictional design intern used only for converter tests. This fixture contains no real personal data.\nWork samples describe synthetic products such as the Example Labs onboarding kit and the Sample Corp design\nsystem.\nDesign Intern, Placeholder Inc\nAugust 2015 – December 2016\n• Led the Logan conversion checklist for synthetic onboarding at Example Labs.\n• Wrote internal style notes so reviewers could edit role descriptions after export.\nEngineering Manager, Mock Industries\nMarch 2021 – Present\n• Led the Logan conversion checklist for synthetic onboarding at Example Labs.\n• Wrote internal style notes so reviewers could edit role descriptions after export.\nPython ꞏ SQL ꞏ Figma ꞏ Accessibility ꞏ Documentation\nB.A. Design, Example University, 2015\n",
+  "pdf": "fixtures/files/simple-012.pdf",
+  "page_count": 1,
+  "source_char_count": 707
+}

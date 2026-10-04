@@ -1,0 +1,39 @@
+{
+  "id": "simple-004",
+  "class": "simple",
+  "name": "Drew Placeholder",
+  "email": "drew@example.test",
+  "phone": "+1-555-0103",
+  "dates": [
+    "August 2015 – December 2016",
+    "March 2021 – Present"
+  ],
+  "employers": [
+    "Placeholder Inc",
+    "Mock Industries"
+  ],
+  "jobs": [
+    [
+      "Placeholder Inc",
+      "August 2015 – December 2016",
+      "Design Intern"
+    ],
+    [
+      "Mock Industries",
+      "March 2021 – Present",
+      "Engineering Manager"
+    ]
+  ],
+  "page_size": "a4",
+  "pages": 1,
+  "font_index": 3,
+  "link": "https://example.test/drew",
+  "ligatures": false,
+  "index": 3,
+  "held_out": false,
+  "expect_scan_detect": false,
+  "expected_text": "Drew Placeholder\nDesign Intern\ndrew@example.test  ·  +1­555­0103  ·  https://example.test/drew\nDrew Placeholder is a fictional design intern used only for converter tests. This fixture contains no real\npersonal data. Work samples describe synthetic products such as the Example Labs onboarding kit and\nthe Sample Corp design system.\nDesign Intern, Placeholder Inc\nAugust 2015 – December 2016\n• Led the Drew conversion checklist for synthetic onboarding at Example Labs.\n• Wrote internal style notes so reviewers could edit role descriptions after export.\nEngineering Manager, Mock Industries\nMarch 2021 – Present\n• Led the Drew conversion checklist for synthetic onboarding at Example Labs.\n• Wrote internal style notes so reviewers could edit role descriptions after export.\nPython · SQL · Figma · Accessibility · Documentation\nB.A. Design, Example University, 2015\n",
+  "pdf": "fixtures/files/simple-004.pdf",
+  "page_count": 1,
+  "source_char_count": 736
+}

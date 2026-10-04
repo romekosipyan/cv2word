@@ -1,0 +1,14 @@
+---
+description: Work from the Obsidian vault and SDLC kanban. Always apply.
+alwaysApply: true
+---
+
+# Agentic SDLC
+
+- Start from `vault/00 Home.md` and `vault/board/SDLC Kanban.md`.
+- Implement one story at a time. Load `.cursor/skills/<assignee_role>/SKILL.md`.
+- When status changes, update story frontmatter and the kanban card in the same turn.
+- Vault notes plus `ResumeToWord_PRD.docx` are the contract. Chat is not.
+- Do not start P1 (`US-080`–`US-083`) from kickoff.
+- Planned code lives in `apps/web/`, `workers/convert/`, and `infra/`.
+- Follow `AGENTS.md` and `vault/_meta/SDLC Operating Model.md`.

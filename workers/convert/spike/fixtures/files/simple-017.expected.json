@@ -1,0 +1,39 @@
+{
+  "id": "simple-017",
+  "class": "simple",
+  "name": "Quinn Mockwell",
+  "email": "quinn@example.test",
+  "phone": "+1-555-0116",
+  "dates": [
+    "June 2023 – Present",
+    "June 2019 – May 2023"
+  ],
+  "employers": [
+    "Example Labs",
+    "Sample Corp"
+  ],
+  "jobs": [
+    [
+      "Example Labs",
+      "June 2023 – Present",
+      "Staff Product Designer"
+    ],
+    [
+      "Sample Corp",
+      "June 2019 – May 2023",
+      "UX Designer"
+    ]
+  ],
+  "page_size": "letter",
+  "pages": 1,
+  "font_index": 1,
+  "link": null,
+  "ligatures": false,
+  "index": 16,
+  "held_out": false,
+  "expect_scan_detect": false,
+  "expected_text": "Quinn Mockwell\nStaff Product Designer\nquinn@example.test  ꞏ  +1­555­0116\nQuinn Mockwell is a fictional staff product designer used only for converter tests. This fixture contains no real\npersonal data. Work samples describe synthetic products such as the Example Labs onboarding kit and the Sample\nCorp design system.\nStaff Product Designer, Example Labs\nJune 2023 – Present\n• Led the Quinn conversion checklist for synthetic onboarding at Example Labs.\n• Wrote internal style notes so reviewers could edit role descriptions after export.\nUX Designer, Sample Corp\nJune 2019 – May 2023\n• Led the Quinn conversion checklist for synthetic onboarding at Example Labs.\n• Wrote internal style notes so reviewers could edit role descriptions after export.\nPython ꞏ SQL ꞏ Figma ꞏ Accessibility ꞏ Documentation\nB.A. Design, Example University, 2015\n",
+  "pdf": "fixtures/files/simple-017.pdf",
+  "page_count": 1,
+  "source_char_count": 710
+}

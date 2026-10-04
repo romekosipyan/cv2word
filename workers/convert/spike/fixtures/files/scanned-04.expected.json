@@ -1,0 +1,47 @@
+{
+  "id": "scanned-04",
+  "class": "scanned_mixed",
+  "name": "Morgan Placeholder",
+  "email": "morgan@example.test",
+  "phone": "+1-555-0112",
+  "dates": [
+    "March 2021 – Present",
+    "April 2018 – February 2021",
+    "May 2014 – August 2016"
+  ],
+  "employers": [
+    "Mock Industries",
+    "Synthetic Systems",
+    "Testfoundry"
+  ],
+  "jobs": [
+    [
+      "Mock Industries",
+      "March 2021 – Present",
+      "Engineering Manager"
+    ],
+    [
+      "Synthetic Systems",
+      "April 2018 – February 2021",
+      "Backend Engineer"
+    ],
+    [
+      "Testfoundry",
+      "May 2014 – August 2016",
+      "QA Analyst"
+    ]
+  ],
+  "page_size": "letter",
+  "pages": 2,
+  "scan_kind": "mixed_text_then_scan",
+  "font_index": 0,
+  "index": 12,
+  "held_out": false,
+  "expect_scan_detect": true,
+  "link": null,
+  "ligatures": false,
+  "expected_text": "Morgan Placeholder\nEngineering Manager\nmorgan@example.test  ꞏ  +1­555­0112\nMorgan Placeholder is a fictional engineering manager used only for converter tests. This fixture contains\nno real personal data. Work samples describe synthetic products such as the Example Labs onboarding kit\nand the Sample Corp design system.\nEngineering Manager, Mock Industries\nMarch 2021 – Present\n• Led the Morgan conversion checklist for synthetic onboarding at Example Labs.\n• Wrote internal style notes so reviewers could edit role descriptions after export.\nBackend Engineer, Synthetic Systems\nApril 2018 – February 2021\n• Led the Morgan conversion checklist for synthetic onboarding at Example Labs.\n• Wrote internal style notes so reviewers could edit role descriptions after export.\nPython ꞏ SQL ꞏ Figma ꞏ Accessibility ꞏ Documentation\nB.A. Design, Example University, 2015\n\nQA Analyst, Testfoundry  ꞏ  May 2014 – August 2016\n• Extended the synthetic corpus with extra pages for pagination checks.\n• Kept facts stable across Letter and A4 variants.\n• Reviewed heading and bullet boundaries after export.\n",
+  "pdf": "fixtures/files/scanned-04.pdf",
+  "page_count": 2,
+  "source_char_count": 736
+}

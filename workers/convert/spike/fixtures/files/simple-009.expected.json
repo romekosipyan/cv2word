@@ -1,0 +1,39 @@
+{
+  "id": "simple-009",
+  "class": "simple",
+  "name": "Indigo Dummy",
+  "email": "indigo@example.test",
+  "phone": "+1-555-0108",
+  "dates": [
+    "June 2023 – Present",
+    "June 2019 – May 2023"
+  ],
+  "employers": [
+    "Example Labs",
+    "Sample Corp"
+  ],
+  "jobs": [
+    [
+      "Example Labs",
+      "June 2023 – Present",
+      "Staff Product Designer"
+    ],
+    [
+      "Sample Corp",
+      "June 2019 – May 2023",
+      "UX Designer"
+    ]
+  ],
+  "page_size": "letter",
+  "pages": 1,
+  "font_index": 3,
+  "link": null,
+  "ligatures": false,
+  "index": 8,
+  "held_out": false,
+  "expect_scan_detect": false,
+  "expected_text": "Indigo Dummy\nStaff Product Designer\nindigo@example.test  ·  +1­555­0108\nIndigo Dummy is a fictional staff product designer used only for converter tests. This fixture contains no\nreal personal data. Work samples describe synthetic products such as the Example Labs onboarding kit and\nthe Sample Corp design system.\nStaff Product Designer, Example Labs\nJune 2023 – Present\n• Led the Indigo conversion checklist for synthetic onboarding at Example Labs.\n• Wrote internal style notes so reviewers could edit role descriptions after export.\nUX Designer, Sample Corp\nJune 2019 – May 2023\n• Led the Indigo conversion checklist for synthetic onboarding at Example Labs.\n• Wrote internal style notes so reviewers could edit role descriptions after export.\nPython · SQL · Figma · Accessibility · Documentation\nB.A. Design, Example University, 2015\n",
+  "pdf": "fixtures/files/simple-009.pdf",
+  "page_count": 1,
+  "source_char_count": 709
+}

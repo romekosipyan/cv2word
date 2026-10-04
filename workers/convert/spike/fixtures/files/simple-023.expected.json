@@ -1,0 +1,53 @@
+{
+  "id": "simple-023",
+  "class": "simple",
+  "name": "Wren Sampled",
+  "email": "wren@example.test",
+  "phone": "+1-555-0122",
+  "dates": [
+    "September 2016 – March 2018",
+    "May 2014 – August 2016",
+    "June 2023 – Present",
+    "June 2019 – May 2023"
+  ],
+  "employers": [
+    "Demo Studio",
+    "Testfoundry",
+    "Example Labs",
+    "Sample Corp"
+  ],
+  "jobs": [
+    [
+      "Demo Studio",
+      "September 2016 – March 2018",
+      "Frontend Engineer"
+    ],
+    [
+      "Testfoundry",
+      "May 2014 – August 2016",
+      "QA Analyst"
+    ],
+    [
+      "Example Labs",
+      "June 2023 – Present",
+      "Staff Product Designer"
+    ],
+    [
+      "Sample Corp",
+      "June 2019 – May 2023",
+      "UX Designer"
+    ]
+  ],
+  "page_size": "letter",
+  "pages": 2,
+  "font_index": 2,
+  "link": null,
+  "ligatures": false,
+  "index": 22,
+  "held_out": false,
+  "expect_scan_detect": false,
+  "expected_text": "Frontend Engineer\nwren@example.test  ∙  +1‐555‐0122\nWren Sampled is a fictional frontend engineer used only for converter tests. This fixture contains no real personal\ndata. Work samples describe synthetic products such as the Example Labs onboarding kit and the Sample Corp\ndesign system.\nFrontend Engineer, Demo Studio\nSeptember 2016 – March 2018\n• Led the Wren conversion checklist for synthetic onboarding at Example Labs.\n• Wrote internal style notes so reviewers could edit role descriptions after export.\nQA Analyst, Testfoundry\nMay 2014 – August 2016\n• Led the Wren conversion checklist for synthetic onboarding at Example Labs.\n• Wrote internal style notes so reviewers could edit role descriptions after export.\nStaff Product Designer, Example Labs\nJune 2023 – Present\n• Led the Wren conversion checklist for synthetic onboarding at Example Labs.\n• Wrote internal style notes so reviewers could edit role descriptions after export.\nPython ∙ SQL ∙ Figma ∙ Accessibility ∙ Documentation\nB.A. Design, Example University, 2015\n\nUX Designer, Sample Corp  ∙  June 2019 – May 2023\n• Extended the synthetic corpus with extra pages for pagination checks.\n• Kept facts stable across Letter and A4 variants.\n• Reviewed heading and bullet boundaries after export.\n",
+  "pdf": "fixtures/files/simple-023.pdf",
+  "page_count": 2,
+  "source_char_count": 1062
+}

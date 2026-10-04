@@ -1,0 +1,82 @@
+{
+  "_comment": "US-013 ECS/Fargate convert-worker task definition SKETCH. Not for apply until ADR-002 spend acceptance AND ADR-003 license acceptance. Do not push an image that embeds PyMuPDF. Image URI placeholder must stay non-public while ADR-003 is recommended-only.",
+  "family": "resumetoword-convert-LOCAL_SPIKE_ONLY",
+  "networkMode": "awsvpc",
+  "requiresCompatibilities": ["FARGATE"],
+  "cpu": "1024",
+  "memory": "2048",
+  "executionRoleArn": "arn:aws:iam::ACCOUNT_ID:role/resumetoword-convert-execution-REPLACE",
+  "taskRoleArn": "arn:aws:iam::ACCOUNT_ID:role/resumetoword-convert-task-REPLACE",
+  "runtimePlatform": {
+    "cpuArchitecture": "X86_64",
+    "operatingSystemFamily": "LINUX"
+  },
+  "containerDefinitions": [
+    {
+      "name": "convert",
+      "image": "ACCOUNT_ID.dkr.ecr.eu-central-1.amazonaws.com/resumetoword-convert:BLOCKED_UNTIL_ADR003",
+      "essential": true,
+      "user": "10001:10001",
+      "readonlyRootFilesystem": true,
+      "privileged": false,
+      "linuxParameters": {
+        "initProcessEnabled": true,
+        "capabilities": {
+          "drop": ["ALL"]
+        },
+        "tmpfs": [
+          {
+            "containerPath": "/mnt/job-tmp",
+            "size": 256,
+            "mountOptions": ["rw", "nosuid", "nodev", "noexec", "mode=0750", "uid=10001", "gid=10001"]
+          }
+        ]
+      },
+      "stopTimeout": 120,
+      "environment": [
+        { "name": "AWS_REGION", "value": "eu-central-1" },
+        { "name": "WORKER_TMP_ROOT", "value": "/mnt/job-tmp" },
+        { "name": "WORKER_CPU", "value": "1" },
+        { "name": "WORKER_MEMORY_MIB", "value": "1024" },
+        { "name": "WORKER_TMP_MIB", "value": "256" },
+        { "name": "WORKER_TIMEOUT_SECONDS", "value": "120" },
+        { "name": "WORKER_RASTER_MP", "value": "20" }
+      ],
+      "logConfiguration": {
+        "logDriver": "awslogs",
+        "options": {
+          "awslogs-group": "/resumetoword/convert",
+          "awslogs-region": "eu-central-1",
+          "awslogs-stream-prefix": "convert"
+        }
+      },
+      "_notes": [
+        "US-041: Fargate platform memory is 2 GiB at 1 vCPU; product RSS cap remains 1 GiB (WORKER_MEMORY_MIB=1024 + entrypoint cgroup memory.max). Do not raise product cap to 2048.",
+        "US-041 caps: 1 CPU, 1 GiB RSS, 256 MiB tmpfs, 20 MP/page, 120s wall clock (entrypoint refuses env above product).",
+        "Job bytes MUST use linuxParameters.tmpfs 256 MiB at /mnt/job-tmp — never the ~20 GiB Fargate ephemeral disk (US-072 warning).",
+        "No command-line secrets. Queue messages carry job references only.",
+        "entrypoint.sh traps EXIT and rm -rf the per-job dir under /mnt/job-tmp.",
+        "Do not publish an image embedding PyMuPDF until ADR-003 is accepted."
+      ]
+    }
+  ],
+  "_network_configuration_sketch": {
+    "awsvpcConfiguration": {
+      "subnets": ["subnet-PRIVATE-A", "subnet-PRIVATE-B"],
+      "securityGroups": ["sg-convert-no-egress"],
+      "assignPublicIp": "DISABLED"
+    },
+    "vpc": {
+      "natGateway": "ABSENT",
+      "defaultRouteToInternet": false,
+      "interfaceEndpoints": [
+        "ecr.api",
+        "ecr.dkr",
+        "logs",
+        "secretsmanager",
+        "sqs"
+      ],
+      "gatewayEndpoints": ["s3"]
+    }
+  }
+}

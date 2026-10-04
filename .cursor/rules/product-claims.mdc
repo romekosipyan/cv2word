@@ -1,0 +1,13 @@
+---
+description: Honest product claims and P0 scope. Always apply.
+alwaysApply: true
+---
+
+# Claims and P0 scope
+
+- P0 is anonymous, free, single PDF, no account or hidden checkout.
+- Required copy: Formatting may change. Review your resume after conversion.
+- Forbidden: perfect layout, 100% accurate, ATS guaranteed, unverified demand or ranking numbers.
+- PRD metrics are planning assumptions until a `vault/09-decisions/` note marks them verified.
+- OCR and paid features are P1 and need their own gates.
+- If implementation cannot meet a public claim, change the claim first.

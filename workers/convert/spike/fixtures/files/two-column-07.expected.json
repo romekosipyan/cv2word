@@ -1,0 +1,54 @@
+{
+  "id": "two-column-07",
+  "class": "two_column",
+  "name": "François Exemple",
+  "email": "francois@example.test",
+  "phone": "+1-555-0127",
+  "dates": [
+    "August 2015 – December 2016",
+    "March 2021 – Present",
+    "April 2018 – February 2021"
+  ],
+  "employers": [
+    "Placeholder Inc",
+    "Mock Industries",
+    "Synthetic Systems"
+  ],
+  "jobs": [
+    [
+      "Placeholder Inc",
+      "August 2015 – December 2016",
+      "Design Intern"
+    ],
+    [
+      "Mock Industries",
+      "March 2021 – Present",
+      "Engineering Manager"
+    ],
+    [
+      "Synthetic Systems",
+      "April 2018 – February 2021",
+      "Backend Engineer"
+    ]
+  ],
+  "page_size": "letter",
+  "pages": 1,
+  "font_index": 1,
+  "left_only": [
+    "LEFT-CONTACT-07",
+    "LEFT-SKILL-07",
+    "LEFT-EDU-07"
+  ],
+  "right_only": [
+    "RIGHT-ROLE-A-07",
+    "RIGHT-ROLE-B-07",
+    "RIGHT-ROLE-C-07"
+  ],
+  "index": 6,
+  "held_out": true,
+  "expect_scan_detect": false,
+  "expected_text": "François Exemple\nDesign Intern\nContact\nfrancois@example.test\n+1­555­0127\nLEFT­CONTACT­07\nSkills\nPython ꞏ SQL ꞏ Figma ꞏ Accessibility ꞏ\nDocumentation\nLEFT­SKILL­07\nEducation\nB.A. Design, Example University, 2015\nLEFT­EDU­07\nExperience\nDesign Intern, Placeholder Inc\nAugust 2015 – December 2016\nRIGHT­ROLE­A­07. Led the François conversion checklist for synthetic onboarding\nat Example Labs.\nEngineering Manager, Mock Industries\nMarch 2021 – Present\nRIGHT­ROLE­B­07. Led the François conversion checklist for synthetic onboarding\nat Example Labs.\nBackend Engineer, Synthetic Systems\nApril 2018 – February 2021\nRIGHT­ROLE­C­07. Led the François conversion checklist for synthetic onboarding\nat Example Labs.\n",
+  "pdf": "fixtures/files/two-column-07.pdf",
+  "page_count": 1,
+  "source_char_count": 616
+}

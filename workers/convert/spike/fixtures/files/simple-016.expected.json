@@ -1,0 +1,39 @@
+{
+  "id": "simple-016",
+  "class": "simple",
+  "name": "Parker Faketown",
+  "email": "parker@example.test",
+  "phone": "+1-555-0115",
+  "dates": [
+    "May 2014 – August 2016",
+    "June 2023 – Present"
+  ],
+  "employers": [
+    "Testfoundry",
+    "Example Labs"
+  ],
+  "jobs": [
+    [
+      "Testfoundry",
+      "May 2014 – August 2016",
+      "QA Analyst"
+    ],
+    [
+      "Example Labs",
+      "June 2023 – Present",
+      "Staff Product Designer"
+    ]
+  ],
+  "page_size": "a4",
+  "pages": 1,
+  "font_index": 0,
+  "link": "https://example.test/parker",
+  "ligatures": false,
+  "index": 15,
+  "held_out": false,
+  "expect_scan_detect": false,
+  "expected_text": "Parker Faketown\nQA Analyst\nparker@example.test  ꞏ  +1­555­0115  ꞏ  https://example.test/parker\nParker Faketown is a fictional qa analyst used only for converter tests. This fixture contains no real\npersonal data. Work samples describe synthetic products such as the Example Labs onboarding kit and\nthe Sample Corp design system.\nQA Analyst, Testfoundry\nMay 2014 – August 2016\n• Led the Parker conversion checklist for synthetic onboarding at Example Labs.\n• Wrote internal style notes so reviewers could edit role descriptions after export.\nStaff Product Designer, Example Labs\nJune 2023 – Present\n• Led the Parker conversion checklist for synthetic onboarding at Example Labs.\n• Wrote internal style notes so reviewers could edit role descriptions after export.\nPython ꞏ SQL ꞏ Figma ꞏ Accessibility ꞏ Documentation\nB.A. Design, Example University, 2015\n",
+  "pdf": "fixtures/files/simple-016.pdf",
+  "page_count": 1,
+  "source_char_count": 723
+}

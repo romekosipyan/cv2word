@@ -1,0 +1,53 @@
+{
+  "id": "simple-022",
+  "class": "simple",
+  "name": "Val Fixtureton",
+  "email": "val@example.test",
+  "phone": "+1-555-0121",
+  "dates": [
+    "April 2018 – February 2021",
+    "September 2016 – March 2018",
+    "May 2014 – August 2016",
+    "June 2023 – Present"
+  ],
+  "employers": [
+    "Synthetic Systems",
+    "Demo Studio",
+    "Testfoundry",
+    "Example Labs"
+  ],
+  "jobs": [
+    [
+      "Synthetic Systems",
+      "April 2018 – February 2021",
+      "Backend Engineer"
+    ],
+    [
+      "Demo Studio",
+      "September 2016 – March 2018",
+      "Frontend Engineer"
+    ],
+    [
+      "Testfoundry",
+      "May 2014 – August 2016",
+      "QA Analyst"
+    ],
+    [
+      "Example Labs",
+      "June 2023 – Present",
+      "Staff Product Designer"
+    ]
+  ],
+  "page_size": "a4",
+  "pages": 2,
+  "font_index": 1,
+  "link": "https://example.test/val",
+  "ligatures": false,
+  "index": 21,
+  "held_out": false,
+  "expect_scan_detect": false,
+  "expected_text": "Val Fixtureton\nBackend Engineer\nval@example.test  ꞏ  +1­555­0121  ꞏ  https://example.test/val\nVal Fixtureton is a fictional backend engineer used only for converter tests. This fixture contains no real personal\ndata. Work samples describe synthetic products such as the Example Labs onboarding kit and the Sample Corp\ndesign system.\nBackend Engineer, Synthetic Systems\nApril 2018 – February 2021\n• Led the Val conversion checklist for synthetic onboarding at Example Labs.\n• Wrote internal style notes so reviewers could edit role descriptions after export.\nFrontend Engineer, Demo Studio\nSeptember 2016 – March 2018\n• Led the Val conversion checklist for synthetic onboarding at Example Labs.\n• Wrote internal style notes so reviewers could edit role descriptions after export.\nQA Analyst, Testfoundry\nMay 2014 – August 2016\n• Led the Val conversion checklist for synthetic onboarding at Example Labs.\n• Wrote internal style notes so reviewers could edit role descriptions after export.\nPython ꞏ SQL ꞏ Figma ꞏ Accessibility ꞏ Documentation\nB.A. Design, Example University, 2015\n\nStaff Product Designer, Example Labs  ꞏ  June 2023 – Present\n• Extended the synthetic corpus with extra pages for pagination checks.\n• Kept facts stable across Letter and A4 variants.\n• Reviewed heading and bullet boundaries after export.\n",
+  "pdf": "fixtures/files/simple-022.pdf",
+  "page_count": 2,
+  "source_char_count": 1113
+}

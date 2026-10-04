@@ -1,0 +1,42 @@
+# US-010 — Local convert engine image (AGPL PyMuPDF). Do not docker push / ECR.
+# ADR-003 accepted Option A. Source-offer residuals are launch checklist.
+#
+# Usage (repo root):
+#   docker compose -f infra/convert-worker/docker-compose.convert.yml build
+#   docker compose -f infra/convert-worker/docker-compose.convert.yml run --rm \
+#     -v "${PWD}/workers/convert/tests/fixtures:/in:ro" \
+#     -v "${PWD}/.data/convert-out:/out" \
+#     convert-engine \
+#     python3 -m engine --input /in/simple_text.pdf --output /out/resume-editable.docx
+
+name: resumetoword-convert-engine
+
+services:
+  convert-engine:
+    build:
+      context: ../../workers/convert
+      dockerfile: Dockerfile
+      tags:
+        - resumetoword/convert-engine:LOCAL_AGPL
+    image: resumetoword/convert-engine:LOCAL_AGPL
+    read_only: true
+    user: "10001:10001"
+    cpus: 1.0
+    mem_limit: 1g
+    memswap_limit: 1g
+    network_mode: "none"
+    tmpfs:
+      - /mnt/job-tmp:size=256m,mode=0750,uid=10001,gid=10001
+    environment:
+      WORKER_TMP_ROOT: /mnt/job-tmp
+      WORKER_CPU: "1"
+      WORKER_MEMORY_MIB: "1024"
+      WORKER_TMP_MIB: "256"
+      WORKER_TIMEOUT_SECONDS: "120"
+      WORKER_RASTER_MP: "20"
+      PYTHONPATH: /app
+    security_opt:
+      - no-new-privileges:true
+    cap_drop:
+      - ALL
+    restart: "no"

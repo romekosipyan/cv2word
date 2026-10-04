@@ -1,0 +1,54 @@
+{
+  "id": "two-column-01",
+  "class": "two_column",
+  "name": "Ada Example",
+  "email": "ada@example.test",
+  "phone": "+1-555-0100",
+  "dates": [
+    "June 2023 – Present",
+    "June 2019 – May 2023",
+    "January 2017 – May 2019"
+  ],
+  "employers": [
+    "Example Labs",
+    "Sample Corp",
+    "Fixture Works"
+  ],
+  "jobs": [
+    [
+      "Example Labs",
+      "June 2023 – Present",
+      "Staff Product Designer"
+    ],
+    [
+      "Sample Corp",
+      "June 2019 – May 2023",
+      "UX Designer"
+    ],
+    [
+      "Fixture Works",
+      "January 2017 – May 2019",
+      "Visual Designer"
+    ]
+  ],
+  "page_size": "letter",
+  "pages": 1,
+  "font_index": 0,
+  "left_only": [
+    "LEFT-CONTACT-01",
+    "LEFT-SKILL-01",
+    "LEFT-EDU-01"
+  ],
+  "right_only": [
+    "RIGHT-ROLE-A-01",
+    "RIGHT-ROLE-B-01",
+    "RIGHT-ROLE-C-01"
+  ],
+  "index": 0,
+  "held_out": false,
+  "expect_scan_detect": false,
+  "expected_text": "Ada Example\nStaff Product Designer\nContact\nada@example.test\n+1­555­0100\nLEFT­CONTACT­01\nSkills\nPython ꞏ SQL ꞏ Figma ꞏ Accessibility ꞏ\nDocumentation\nLEFT­SKILL­01\nEducation\nB.A. Design, Example University, 2015\nLEFT­EDU­01\nExperience\nStaff Product Designer, Example Labs\nJune 2023 – Present\nRIGHT­ROLE­A­01. Led the Ada conversion checklist for synthetic onboarding\nat Example Labs.\nUX Designer, Sample Corp\nJune 2019 – May 2023\nRIGHT­ROLE­B­01. Led the Ada conversion checklist for synthetic onboarding\nat Example Labs.\nVisual Designer, Fixture Works\nJanuary 2017 – May 2019\nRIGHT­ROLE­C­01. Led the Ada conversion checklist for synthetic onboarding\nat Example Labs.\n",
+  "pdf": "fixtures/files/two-column-01.pdf",
+  "page_count": 1,
+  "source_char_count": 576
+}

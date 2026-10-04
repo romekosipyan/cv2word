@@ -1,0 +1,43 @@
+{
+  "id": "complex-02",
+  "class": "complex",
+  "name": "François Exemple",
+  "email": "francois@example.test",
+  "phone": "+1-555-0127",
+  "dates": [
+    "April 2018 – February 2021",
+    "September 2016 – March 2018",
+    "May 2014 – August 2016"
+  ],
+  "employers": [
+    "Synthetic Systems",
+    "Demo Studio",
+    "Testfoundry"
+  ],
+  "jobs": [
+    [
+      "Synthetic Systems",
+      "April 2018 – February 2021",
+      "Backend Engineer"
+    ],
+    [
+      "Demo Studio",
+      "September 2016 – March 2018",
+      "Frontend Engineer"
+    ],
+    [
+      "Testfoundry",
+      "May 2014 – August 2016",
+      "QA Analyst"
+    ]
+  ],
+  "page_size": "a4",
+  "pages": 1,
+  "index": 1,
+  "held_out": false,
+  "expect_scan_detect": false,
+  "expected_text": "François Exemple\nfrancois@example.test\n+1­555­0127\nSkills\nPython ꞏ SQL ꞏ Figma ꞏ\nAccessibility ꞏ Documentation\nSidebar token complex­02\nFrançois Exemple  ꞏ  Backend Engineer\nFrançois Exemple is a fictional backend engineer used only for converter tests. This\nfixture contains no real personal data. Work samples describe synthetic products\nsuch as the Example Labs onboarding kit and the Sample Corp design system.\nApril 2018 – February 2021\nSeptember 2016 – March 2018\nMay 2014 – August 2016\n",
+  "pdf": "fixtures/files/complex-02.pdf",
+  "page_count": 1,
+  "source_char_count": 417
+}

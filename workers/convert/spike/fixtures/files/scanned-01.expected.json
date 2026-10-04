@@ -1,0 +1,40 @@
+{
+  "id": "scanned-01",
+  "class": "scanned_mixed",
+  "name": "Ada Example",
+  "email": "ada@example.test",
+  "phone": "+1-555-0100",
+  "dates": [
+    "June 2023 – Present",
+    "June 2019 – May 2023"
+  ],
+  "employers": [
+    "Example Labs",
+    "Sample Corp"
+  ],
+  "jobs": [
+    [
+      "Example Labs",
+      "June 2023 – Present",
+      "Staff Product Designer"
+    ],
+    [
+      "Sample Corp",
+      "June 2019 – May 2023",
+      "UX Designer"
+    ]
+  ],
+  "page_size": "letter",
+  "pages": 1,
+  "scan_kind": "full_scan",
+  "font_index": 0,
+  "index": 0,
+  "held_out": false,
+  "expect_scan_detect": true,
+  "link": null,
+  "ligatures": false,
+  "expected_text": "Ada Example\nStaff Product Designer\nada@example.test  ꞏ  +1­555­0100\nAda Example is a fictional staff product designer used only for converter tests. This fixture contains no real\npersonal data. Work samples describe synthetic products such as the Example Labs onboarding kit and the\nSample Corp design system.\nStaff Product Designer, Example Labs\nJune 2023 – Present\n• Led the Ada conversion checklist for synthetic onboarding at Example Labs.\n• Wrote internal style notes so reviewers could edit role descriptions after export.\nUX Designer, Sample Corp\nJune 2019 – May 2023\n• Led the Ada conversion checklist for synthetic onboarding at Example Labs.\n• Wrote internal style notes so reviewers could edit role descriptions after export.\nPython ꞏ SQL ꞏ Figma ꞏ Accessibility ꞏ Documentation\nB.A. Design, Example University, 2015\n",
+  "pdf": "fixtures/files/scanned-01.pdf",
+  "page_count": 1,
+  "source_char_count": 0
+}

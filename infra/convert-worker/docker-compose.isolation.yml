@@ -1,0 +1,40 @@
+# US-013 / US-041 — Convert worker isolation + product resource caps (draft)
+#
+# LOCAL_SPIKE_ONLY. Do not `docker push` / ECR publish.
+# ADR-003 PyMuPDF license is `recommended` only (human_reviewer TBD).
+# This compose builds Dockerfile.isolation which embeds NO PyMuPDF.
+# Product caps: 1 CPU, mem_limit 1g (not Fargate's 2 GiB platform floor),
+# 256m tmpfs, env WORKER_* matching SPEC-WORKER (entrypoint refuses higher).
+
+name: resumetoword-convert-isolation
+
+services:
+  convert-isolation:
+    build:
+      context: ../../workers/convert
+      dockerfile: Dockerfile.isolation
+      tags:
+        - resumetoword/convert-isolation:LOCAL_SPIKE_ONLY
+    image: resumetoword/convert-isolation:LOCAL_SPIKE_ONLY
+    read_only: true
+    user: "10001:10001"
+    cpus: 1.0
+    mem_limit: 1g
+    memswap_limit: 1g
+    # Deny all outbound (and inbound) network. Proves PDF URLs cannot be fetched.
+    network_mode: "none"
+    tmpfs:
+      - /mnt/job-tmp:size=256m,mode=0750,uid=10001,gid=10001
+    environment:
+      WORKER_TMP_ROOT: /mnt/job-tmp
+      WORKER_CPU: "1"
+      WORKER_MEMORY_MIB: "1024"
+      WORKER_TMP_MIB: "256"
+      WORKER_TIMEOUT_SECONDS: "120"
+      WORKER_RASTER_MP: "20"
+    security_opt:
+      - no-new-privileges:true
+    cap_drop:
+      - ALL
+    # Do not mount the host Docker socket. Do not add a default bridge network.
+    restart: "no"

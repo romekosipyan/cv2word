@@ -1,0 +1,67 @@
+{
+  "id": "simple-030",
+  "class": "simple",
+  "name": "Søren Prøve",
+  "email": "soren@example.test",
+  "phone": "+1-555-0129",
+  "dates": [
+    "April 2018 – February 2021",
+    "September 2016 – March 2018",
+    "May 2014 – August 2016",
+    "June 2023 – Present",
+    "June 2023 – Present",
+    "June 2023 – Present"
+  ],
+  "employers": [
+    "Synthetic Systems",
+    "Demo Studio",
+    "Testfoundry",
+    "Example Labs",
+    "Example Labs",
+    "Example Labs"
+  ],
+  "jobs": [
+    [
+      "Synthetic Systems",
+      "April 2018 – February 2021",
+      "Backend Engineer"
+    ],
+    [
+      "Demo Studio",
+      "September 2016 – March 2018",
+      "Frontend Engineer"
+    ],
+    [
+      "Testfoundry",
+      "May 2014 – August 2016",
+      "QA Analyst"
+    ],
+    [
+      "Example Labs",
+      "June 2023 – Present",
+      "Staff Product Designer"
+    ],
+    [
+      "Example Labs",
+      "June 2023 – Present",
+      "Staff Product Designer"
+    ],
+    [
+      "Example Labs",
+      "June 2023 – Present",
+      "Staff Product Designer"
+    ]
+  ],
+  "page_size": "a4",
+  "pages": 3,
+  "font_index": 4,
+  "link": null,
+  "ligatures": false,
+  "index": 29,
+  "held_out": true,
+  "expect_scan_detect": false,
+  "expected_text": "soren@example.test  ·  +1‐555‐0129\nSøren Prøve is a fictional backend engineer used only for converter tests. This fixture contains no real\npersonal data. Work samples describe synthetic products such as the Example Labs onboarding kit and\nthe Sample Corp design system.\nApril 2018 – February 2021\n• Led the Søren conversion checklist for synthetic onboarding at Example Labs.\n• Wrote internal style notes so reviewers could edit role descriptions after export.\nSeptember 2016 – March 2018\n• Led the Søren conversion checklist for synthetic onboarding at Example Labs.\n• Wrote internal style notes so reviewers could edit role descriptions after export.\nMay 2014 – August 2016\n• Led the Søren conversion checklist for synthetic onboarding at Example Labs.\n• Wrote internal style notes so reviewers could edit role descriptions after export.\nJune 2023 – Present\n• Led the Søren conversion checklist for synthetic onboarding at Example Labs.\n• Wrote internal style notes so reviewers could edit role descriptions after export.\n\n• Extended the synthetic corpus with extra pages for pagination checks.\n• Kept facts stable across Letter and A4 variants.\n• Reviewed heading and bullet boundaries after export.\n\n• Extended the synthetic corpus with extra pages for pagination checks.\n• Kept facts stable across Letter and A4 variants.\n• Reviewed heading and bullet boundaries after export.\n",
+  "pdf": "fixtures/files/simple-030.pdf",
+  "page_count": 3,
+  "source_char_count": 1164
+}

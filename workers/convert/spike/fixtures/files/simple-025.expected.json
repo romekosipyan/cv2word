@@ -1,0 +1,53 @@
+{
+  "id": "simple-025",
+  "class": "simple",
+  "name": "Yael Mockridge",
+  "email": "yael@example.test",
+  "phone": "+1-555-0124",
+  "dates": [
+    "June 2023 – Present",
+    "June 2019 – May 2023",
+    "January 2017 – May 2019",
+    "August 2015 – December 2016"
+  ],
+  "employers": [
+    "Example Labs",
+    "Sample Corp",
+    "Fixture Works",
+    "Placeholder Inc"
+  ],
+  "jobs": [
+    [
+      "Example Labs",
+      "June 2023 – Present",
+      "Staff Product Designer"
+    ],
+    [
+      "Sample Corp",
+      "June 2019 – May 2023",
+      "UX Designer"
+    ],
+    [
+      "Fixture Works",
+      "January 2017 – May 2019",
+      "Visual Designer"
+    ],
+    [
+      "Placeholder Inc",
+      "August 2015 – December 2016",
+      "Design Intern"
+    ]
+  ],
+  "page_size": "letter",
+  "pages": 2,
+  "font_index": 4,
+  "link": "https://example.test/yael",
+  "ligatures": false,
+  "index": 24,
+  "held_out": true,
+  "expect_scan_detect": false,
+  "expected_text": "yael@example.test  ·  +1‐555‐0124  ·  https://example.test/yael\nYael Mockridge is a fictional staff product designer used only for converter tests. This fixture contains no\nreal personal data. Work samples describe synthetic products such as the Example Labs onboarding kit and\nthe Sample Corp design system.\nJune 2023 – Present\n• Led the Yael conversion checklist for synthetic onboarding at Example Labs.\n• Wrote internal style notes so reviewers could edit role descriptions after export.\nJune 2019 – May 2023\n• Led the Yael conversion checklist for synthetic onboarding at Example Labs.\n• Wrote internal style notes so reviewers could edit role descriptions after export.\nJanuary 2017 – May 2019\n• Led the Yael conversion checklist for synthetic onboarding at Example Labs.\n• Wrote internal style notes so reviewers could edit role descriptions after export.\n\n• Extended the synthetic corpus with extra pages for pagination checks.\n• Kept facts stable across Letter and A4 variants.\n• Reviewed heading and bullet boundaries after export.\n",
+  "pdf": "fixtures/files/simple-025.pdf",
+  "page_count": 2,
+  "source_char_count": 877
+}

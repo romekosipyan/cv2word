@@ -1,0 +1,54 @@
+{
+  "id": "two-column-03",
+  "class": "two_column",
+  "name": "Finley Synthetic",
+  "email": "finley@example.test",
+  "phone": "+1-555-0105",
+  "dates": [
+    "April 2018 – February 2021",
+    "September 2016 – March 2018",
+    "May 2014 – August 2016"
+  ],
+  "employers": [
+    "Synthetic Systems",
+    "Demo Studio",
+    "Testfoundry"
+  ],
+  "jobs": [
+    [
+      "Synthetic Systems",
+      "April 2018 – February 2021",
+      "Backend Engineer"
+    ],
+    [
+      "Demo Studio",
+      "September 2016 – March 2018",
+      "Frontend Engineer"
+    ],
+    [
+      "Testfoundry",
+      "May 2014 – August 2016",
+      "QA Analyst"
+    ]
+  ],
+  "page_size": "letter",
+  "pages": 1,
+  "font_index": 2,
+  "left_only": [
+    "LEFT-CONTACT-03",
+    "LEFT-SKILL-03",
+    "LEFT-EDU-03"
+  ],
+  "right_only": [
+    "RIGHT-ROLE-A-03",
+    "RIGHT-ROLE-B-03",
+    "RIGHT-ROLE-C-03"
+  ],
+  "index": 2,
+  "held_out": false,
+  "expect_scan_detect": false,
+  "expected_text": "Finley Synthetic\nBackend Engineer\nContact\nfinley@example.test\n+1‐555‐0105\nLEFT‐CONTACT‐03\nSkills\nPython ∙ SQL ∙ Figma ∙ Accessibility ∙\nDocumentation\nLEFT‐SKILL‐03\nEducation\nB.A. Design, Example University, 2015\nLEFT‐EDU‐03\nExperience\nBackend Engineer, Synthetic Systems\nApril 2018 – February 2021\nRIGHT‐ROLE‐A‐03. Led the Finley conversion checklist for synthetic onboarding at\nExample Labs.\nFrontend Engineer, Demo Studio\nSeptember 2016 – March 2018\nRIGHT‐ROLE‐B‐03. Led the Finley conversion checklist for synthetic onboarding at\nExample Labs.\nQA Analyst, Testfoundry\nMay 2014 – August 2016\nRIGHT‐ROLE‐C‐03. Led the Finley conversion checklist for synthetic onboarding at\nExample Labs.\n",
+  "pdf": "fixtures/files/two-column-03.pdf",
+  "page_count": 1,
+  "source_char_count": 600
+}

@@ -1,0 +1,39 @@
+{
+  "id": "simple-011",
+  "class": "simple",
+  "name": "Kai Prototype",
+  "email": "kai@example.test",
+  "phone": "+1-555-0110",
+  "dates": [
+    "January 2017 – May 2019",
+    "August 2015 – December 2016"
+  ],
+  "employers": [
+    "Fixture Works",
+    "Placeholder Inc"
+  ],
+  "jobs": [
+    [
+      "Fixture Works",
+      "January 2017 – May 2019",
+      "Visual Designer"
+    ],
+    [
+      "Placeholder Inc",
+      "August 2015 – December 2016",
+      "Design Intern"
+    ]
+  ],
+  "page_size": "letter",
+  "pages": 1,
+  "font_index": 0,
+  "link": null,
+  "ligatures": true,
+  "index": 10,
+  "held_out": false,
+  "expect_scan_detect": false,
+  "expected_text": "Kai Prototype\nVisual Designer\nkai@example.test  ꞏ  +1­555­0110\nKai Prototype is a fictional visual designer used only for converter tests. This fixture contains no real\npersonal data. Work samples describe synthetic products such as the Example Labs onboarding kit and the\nSample Corp design system. Experience includes ofﬁce afﬁliation work and a difficult onboarding ﬂow.\nVisual Designer, Fixture Works\nJanuary 2017 – May 2019\n• Led the Kai conversion checklist for synthetic onboarding at Example Labs.\n• Wrote internal style notes so reviewers could edit role descriptions after export.\nDesign Intern, Placeholder Inc\nAugust 2015 – December 2016\n• Led the Kai conversion checklist for synthetic onboarding at Example Labs.\n• Wrote internal style notes so reviewers could edit role descriptions after export.\nPython ꞏ SQL ꞏ Figma ꞏ Accessibility ꞏ Documentation\nB.A. Design, Example University, 2015\n",
+  "pdf": "fixtures/files/simple-011.pdf",
+  "page_count": 1,
+  "source_char_count": 765
+}

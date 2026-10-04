@@ -1,0 +1,93 @@
+{
+  "collapse-filter": false,
+  "search": "",
+  "showTags": true,
+  "showAttachments": false,
+  "hideUnresolved": false,
+  "showOrphans": false,
+  "collapse-color-groups": false,
+  "colorGroups": [
+    {
+      "query": "path:01-product",
+      "color": {
+        "a": 1,
+        "rgb": 14701138
+      }
+    },
+    {
+      "query": "path:02-architecture",
+      "color": {
+        "a": 1,
+        "rgb": 5431478
+      }
+    },
+    {
+      "query": "path:03-specs",
+      "color": {
+        "a": 1,
+        "rgb": 4270441
+      }
+    },
+    {
+      "query": "path:04-stories",
+      "color": {
+        "a": 1,
+        "rgb": 16753920
+      }
+    },
+    {
+      "query": "path:05-implementation",
+      "color": {
+        "a": 1,
+        "rgb": 10233776
+      }
+    },
+    {
+      "query": "path:07-security",
+      "color": {
+        "a": 1,
+        "rgb": 13369344
+      }
+    },
+    {
+      "query": "path:08-seo",
+      "color": {
+        "a": 1,
+        "rgb": 2263842
+      }
+    },
+    {
+      "query": "path:09-decisions",
+      "color": {
+        "a": 1,
+        "rgb": 10053375
+      }
+    },
+    {
+      "query": "path:10-roles",
+      "color": {
+        "a": 1,
+        "rgb": 8421504
+      }
+    },
+    {
+      "query": "path:board",
+      "color": {
+        "a": 1,
+        "rgb": 16711680
+      }
+    }
+  ],
+  "collapse-display": false,
+  "showArrow": true,
+  "textFadeMultiplier": -0.7,
+  "nodeSizeMultiplier": 1.1,
+  "lineSizeMultiplier": 1,
+  "collapse-forces": true,
+  "centerStrength": 0.4,
+  "repelStrength": 8,
+  "linkStrength": 0.8,
+  "linkDistance": 180,
+  "scale": 1,
+  "close": false
+}

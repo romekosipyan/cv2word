@@ -1,0 +1,43 @@
+{
+  "id": "complex-03",
+  "class": "complex",
+  "name": "Søren Prøve",
+  "email": "soren@example.test",
+  "phone": "+1-555-0129",
+  "dates": [
+    "May 2014 – August 2016",
+    "June 2023 – Present",
+    "June 2019 – May 2023"
+  ],
+  "employers": [
+    "Testfoundry",
+    "Example Labs",
+    "Sample Corp"
+  ],
+  "jobs": [
+    [
+      "Testfoundry",
+      "May 2014 – August 2016",
+      "QA Analyst"
+    ],
+    [
+      "Example Labs",
+      "June 2023 – Present",
+      "Staff Product Designer"
+    ],
+    [
+      "Sample Corp",
+      "June 2019 – May 2023",
+      "UX Designer"
+    ]
+  ],
+  "page_size": "letter",
+  "pages": 1,
+  "index": 2,
+  "held_out": true,
+  "expect_scan_detect": false,
+  "expected_text": "Søren Prøve\nsoren@example.test\n+1­555­0129\nSkills\nPython ꞏ SQL ꞏ Figma ꞏ\nAccessibility ꞏ Documentation\nSidebar token complex­03\nSøren Prøve  ꞏ  QA Analyst\nSøren Prøve is a fictional qa analyst used only for converter tests. This fixture contains\nno real personal data. Work samples describe synthetic products such as the Example\nLabs onboarding kit and the Sample Corp design system.\nMay 2014 – August 2016\nJune 2023 – Present\nJune 2019 – May 2023\n",
+  "pdf": "fixtures/files/complex-03.pdf",
+  "page_count": 1,
+  "source_char_count": 374
+}

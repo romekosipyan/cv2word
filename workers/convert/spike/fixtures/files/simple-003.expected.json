@@ -1,0 +1,39 @@
+{
+  "id": "simple-003",
+  "class": "simple",
+  "name": "Casey Fixture",
+  "email": "casey@example.test",
+  "phone": "+1-555-0102",
+  "dates": [
+    "January 2017 – May 2019",
+    "August 2015 – December 2016"
+  ],
+  "employers": [
+    "Fixture Works",
+    "Placeholder Inc"
+  ],
+  "jobs": [
+    [
+      "Fixture Works",
+      "January 2017 – May 2019",
+      "Visual Designer"
+    ],
+    [
+      "Placeholder Inc",
+      "August 2015 – December 2016",
+      "Design Intern"
+    ]
+  ],
+  "page_size": "letter",
+  "pages": 1,
+  "font_index": 2,
+  "link": null,
+  "ligatures": false,
+  "index": 2,
+  "held_out": false,
+  "expect_scan_detect": false,
+  "expected_text": "Visual Designer\ncasey@example.test  ∙  +1‐555‐0102\nCasey Fixture is a fictional visual designer used only for converter tests. This fixture contains no real personal data.\nWork samples describe synthetic products such as the Example Labs onboarding kit and the Sample Corp design\nsystem.\nVisual Designer, Fixture Works\nJanuary 2017 – May 2019\n• Led the Casey conversion checklist for synthetic onboarding at Example Labs.\n• Wrote internal style notes so reviewers could edit role descriptions after export.\nDesign Intern, Placeholder Inc\nAugust 2015 – December 2016\n• Led the Casey conversion checklist for synthetic onboarding at Example Labs.\n• Wrote internal style notes so reviewers could edit role descriptions after export.\nPython ∙ SQL ∙ Figma ∙ Accessibility ∙ Documentation\nB.A. Design, Example University, 2015\n",
+  "pdf": "fixtures/files/simple-003.pdf",
+  "page_count": 1,
+  "source_char_count": 695
+}

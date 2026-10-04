@@ -1,0 +1,43 @@
+{
+  "id": "complex-01",
+  "class": "complex",
+  "name": "Blake Sample",
+  "email": "blake@example.test",
+  "phone": "+1-555-0101",
+  "dates": [
+    "August 2015 – December 2016",
+    "March 2021 – Present",
+    "April 2018 – February 2021"
+  ],
+  "employers": [
+    "Placeholder Inc",
+    "Mock Industries",
+    "Synthetic Systems"
+  ],
+  "jobs": [
+    [
+      "Placeholder Inc",
+      "August 2015 – December 2016",
+      "Design Intern"
+    ],
+    [
+      "Mock Industries",
+      "March 2021 – Present",
+      "Engineering Manager"
+    ],
+    [
+      "Synthetic Systems",
+      "April 2018 – February 2021",
+      "Backend Engineer"
+    ]
+  ],
+  "page_size": "letter",
+  "pages": 1,
+  "index": 0,
+  "held_out": false,
+  "expect_scan_detect": false,
+  "expected_text": "Blake Sample\nblake@example.test\n+1­555­0101\nSkills\nPython ꞏ SQL ꞏ Figma ꞏ\nAccessibility ꞏ Documentation\nSidebar token complex­01\nBlake Sample  ꞏ  Design Intern\nBlake Sample is a fictional design intern used only for converter tests. This fixture\ncontains no real personal data. Work samples describe synthetic products such as the\nExample Labs onboarding kit and the Sample Corp design system.\nAugust 2015 – December 2016\nMarch 2021 – Present\nApril 2018 – February 2021\n",
+  "pdf": "fixtures/files/complex-01.pdf",
+  "page_count": 1,
+  "source_char_count": 395
+}

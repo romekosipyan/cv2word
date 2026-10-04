@@ -1,0 +1,39 @@
+{
+  "id": "simple-018",
+  "class": "simple",
+  "name": "Reese Testdata",
+  "email": "reese@example.test",
+  "phone": "+1-555-0117",
+  "dates": [
+    "June 2019 – May 2023",
+    "January 2017 – May 2019"
+  ],
+  "employers": [
+    "Sample Corp",
+    "Fixture Works"
+  ],
+  "jobs": [
+    [
+      "Sample Corp",
+      "June 2019 – May 2023",
+      "UX Designer"
+    ],
+    [
+      "Fixture Works",
+      "January 2017 – May 2019",
+      "Visual Designer"
+    ]
+  ],
+  "page_size": "a4",
+  "pages": 1,
+  "font_index": 2,
+  "link": null,
+  "ligatures": false,
+  "index": 17,
+  "held_out": false,
+  "expect_scan_detect": false,
+  "expected_text": "UX Designer\nreese@example.test  ∙  +1‐555‐0117\nReese Testdata is a fictional ux designer used only for converter tests. This fixture contains no real personal data.\nWork samples describe synthetic products such as the Example Labs onboarding kit and the Sample Corp design\nsystem.\nUX Designer, Sample Corp\nJune 2019 – May 2023\n• Led the Reese conversion checklist for synthetic onboarding at Example Labs.\n• Wrote internal style notes so reviewers could edit role descriptions after export.\nVisual Designer, Fixture Works\nJanuary 2017 – May 2019\n• Led the Reese conversion checklist for synthetic onboarding at Example Labs.\n• Wrote internal style notes so reviewers could edit role descriptions after export.\nPython ∙ SQL ∙ Figma ∙ Accessibility ∙ Documentation\nB.A. Design, Example University, 2015\n",
+  "pdf": "fixtures/files/simple-018.pdf",
+  "page_count": 1,
+  "source_char_count": 675
+}

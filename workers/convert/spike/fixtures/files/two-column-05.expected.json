@@ -1,0 +1,54 @@
+{
+  "id": "two-column-05",
+  "class": "two_column",
+  "name": "Sage Dummyworth",
+  "email": "sage@example.test",
+  "phone": "+1-555-0118",
+  "dates": [
+    "January 2017 – May 2019",
+    "August 2015 – December 2016",
+    "March 2021 – Present"
+  ],
+  "employers": [
+    "Fixture Works",
+    "Placeholder Inc",
+    "Mock Industries"
+  ],
+  "jobs": [
+    [
+      "Fixture Works",
+      "January 2017 – May 2019",
+      "Visual Designer"
+    ],
+    [
+      "Placeholder Inc",
+      "August 2015 – December 2016",
+      "Design Intern"
+    ],
+    [
+      "Mock Industries",
+      "March 2021 – Present",
+      "Engineering Manager"
+    ]
+  ],
+  "page_size": "letter",
+  "pages": 1,
+  "font_index": 4,
+  "left_only": [
+    "LEFT-CONTACT-05",
+    "LEFT-SKILL-05",
+    "LEFT-EDU-05"
+  ],
+  "right_only": [
+    "RIGHT-ROLE-A-05",
+    "RIGHT-ROLE-B-05",
+    "RIGHT-ROLE-C-05"
+  ],
+  "index": 4,
+  "held_out": false,
+  "expect_scan_detect": false,
+  "expected_text": "Sage Dummyworth\nVisual Designer\nsage@example.test\n+1‐555‐0118\nLEFT‐CONTACT‐05\nPython · SQL · Figma · Accessibility ·\nDocumentation\nLEFT‐SKILL‐05\nB.A. Design, Example University, 2015\nLEFT‐EDU‐05\nRIGHT‐ROLE‐A‐05. Led the Sage conversion checklist for synthetic onboarding\nat Example Labs.\nRIGHT‐ROLE‐B‐05. Led the Sage conversion checklist for synthetic onboarding\nat Example Labs.\nRIGHT‐ROLE‐C‐05. Led the Sage conversion checklist for synthetic onboarding\nat Example Labs.\n",
+  "pdf": "fixtures/files/two-column-05.pdf",
+  "page_count": 1,
+  "source_char_count": 415
+}

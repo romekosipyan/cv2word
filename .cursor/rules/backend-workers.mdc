@@ -1,0 +1,14 @@
+---
+description: Job API and isolated Python worker contracts.
+globs: "{apps,workers,infra}/**/*.{py,ts,js}"
+alwaysApply: false
+---
+
+# Backend and workers
+
+- Convert in isolated Python workers, never in a Next.js request handler.
+- Inspect with PyMuPDF, reconstruct with pdf2docx, then validate native editable text.
+- No silent OCR. Empty or omitted-page output is `output_invalid`.
+- Workers: non-root, no egress, per-job temp, 120s cap, one infra retry.
+- Enforce size/page/signature on the server. MIME and extension are not enough.
+- Do not ship a worker image before `ADR-003` has a license route.

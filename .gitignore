@@ -1,0 +1,26 @@
+# Local extracts and caches
+_prd_extract.txt
+__pycache__/
+.pytest_cache/
+.venv/
+node_modules/
+.next/
+.data/
+*.sqlite
+*.sqlite-journal
+*.sqlite-wal
+*.sqlite-shm
+*.tsbuildinfo
+.env
+.env.*
+!.env.example
+
+# OS / editor
+Thumbs.db
+.DS_Store
+*.log
+
+# Obsidian workspace is machine-local
+vault/.obsidian/workspace.json
+vault/.obsidian/workspace-mobile.json
+vault/.obsidian/cache

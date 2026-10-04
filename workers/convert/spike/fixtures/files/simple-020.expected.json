@@ -1,0 +1,39 @@
+{
+  "id": "simple-020",
+  "class": "simple",
+  "name": "Taylor Fictious",
+  "email": "taylor@example.test",
+  "phone": "+1-555-0119",
+  "dates": [
+    "August 2015 – December 2016",
+    "March 2021 – Present"
+  ],
+  "employers": [
+    "Placeholder Inc",
+    "Mock Industries"
+  ],
+  "jobs": [
+    [
+      "Placeholder Inc",
+      "August 2015 – December 2016",
+      "Design Intern"
+    ],
+    [
+      "Mock Industries",
+      "March 2021 – Present",
+      "Engineering Manager"
+    ]
+  ],
+  "page_size": "a4",
+  "pages": 1,
+  "font_index": 4,
+  "link": null,
+  "ligatures": false,
+  "index": 19,
+  "held_out": false,
+  "expect_scan_detect": false,
+  "expected_text": "taylor@example.test  ·  +1‐555‐0119\nTaylor Fictious is a fictional design intern used only for converter tests. This fixture contains no real\npersonal data. Work samples describe synthetic products such as the Example Labs onboarding kit and\nthe Sample Corp design system.\nAugust 2015 – December 2016\n• Led the Taylor conversion checklist for synthetic onboarding at Example Labs.\n• Wrote internal style notes so reviewers could edit role descriptions after export.\nMarch 2021 – Present\n• Led the Taylor conversion checklist for synthetic onboarding at Example Labs.\n• Wrote internal style notes so reviewers could edit role descriptions after export.\n",
+  "pdf": "fixtures/files/simple-020.pdf",
+  "page_count": 1,
+  "source_char_count": 551
+}

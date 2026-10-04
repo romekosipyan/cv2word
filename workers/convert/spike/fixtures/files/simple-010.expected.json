@@ -1,0 +1,39 @@
+{
+  "id": "simple-010",
+  "class": "simple",
+  "name": "Jules Fictional",
+  "email": "jules@example.test",
+  "phone": "+1-555-0109",
+  "dates": [
+    "June 2019 – May 2023",
+    "January 2017 – May 2019"
+  ],
+  "employers": [
+    "Sample Corp",
+    "Fixture Works"
+  ],
+  "jobs": [
+    [
+      "Sample Corp",
+      "June 2019 – May 2023",
+      "UX Designer"
+    ],
+    [
+      "Fixture Works",
+      "January 2017 – May 2019",
+      "Visual Designer"
+    ]
+  ],
+  "page_size": "a4",
+  "pages": 1,
+  "font_index": 4,
+  "link": "https://example.test/jules",
+  "ligatures": false,
+  "index": 9,
+  "held_out": false,
+  "expect_scan_detect": false,
+  "expected_text": "jules@example.test  ·  +1‐555‐0109  ·  https://example.test/jules\nJules Fictional is a fictional ux designer used only for converter tests. This fixture contains no real\npersonal data. Work samples describe synthetic products such as the Example Labs onboarding kit and\nthe Sample Corp design system.\nJune 2019 – May 2023\n• Led the Jules conversion checklist for synthetic onboarding at Example Labs.\n• Wrote internal style notes so reviewers could edit role descriptions after export.\nJanuary 2017 – May 2019\n• Led the Jules conversion checklist for synthetic onboarding at Example Labs.\n• Wrote internal style notes so reviewers could edit role descriptions after export.\n",
+  "pdf": "fixtures/files/simple-010.pdf",
+  "page_count": 1,
+  "source_char_count": 568
+}

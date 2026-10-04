@@ -1,0 +1,54 @@
+{
+  "id": "two-column-08",
+  "class": "two_column",
+  "name": "Müller Beispiel",
+  "email": "muller@example.test",
+  "phone": "+1-555-0128",
+  "dates": [
+    "March 2021 – Present",
+    "April 2018 – February 2021",
+    "September 2016 – March 2018"
+  ],
+  "employers": [
+    "Mock Industries",
+    "Synthetic Systems",
+    "Demo Studio"
+  ],
+  "jobs": [
+    [
+      "Mock Industries",
+      "March 2021 – Present",
+      "Engineering Manager"
+    ],
+    [
+      "Synthetic Systems",
+      "April 2018 – February 2021",
+      "Backend Engineer"
+    ],
+    [
+      "Demo Studio",
+      "September 2016 – March 2018",
+      "Frontend Engineer"
+    ]
+  ],
+  "page_size": "a4",
+  "pages": 1,
+  "font_index": 2,
+  "left_only": [
+    "LEFT-CONTACT-08",
+    "LEFT-SKILL-08",
+    "LEFT-EDU-08"
+  ],
+  "right_only": [
+    "RIGHT-ROLE-A-08",
+    "RIGHT-ROLE-B-08",
+    "RIGHT-ROLE-C-08"
+  ],
+  "index": 7,
+  "held_out": true,
+  "expect_scan_detect": false,
+  "expected_text": "Müller Beispiel\nEngineering Manager\nContact\nmuller@example.test\n+1‐555‐0128\nLEFT‐CONTACT‐08\nSkills\nPython ∙ SQL ∙ Figma ∙ Accessibility ∙\nDocumentation\nLEFT‐SKILL‐08\nEducation\nB.A. Design, Example University, 2015\nLEFT‐EDU‐08\nExperience\nEngineering Manager, Mock Industries\nMarch 2021 – Present\nRIGHT‐ROLE‐A‐08. Led the Müller conversion checklist for synthetic onboarding\nat Example Labs.\nBackend Engineer, Synthetic Systems\nApril 2018 – February 2021\nRIGHT‐ROLE‐B‐08. Led the Müller conversion checklist for synthetic onboarding\nat Example Labs.\nFrontend Engineer, Demo Studio\nSeptember 2016 – March 2018\nRIGHT‐ROLE‐C‐08. Led the Müller conversion checklist for synthetic onboarding\nat Example Labs.\n",
+  "pdf": "fixtures/files/two-column-08.pdf",
+  "page_count": 1,
+  "source_char_count": 613
+}

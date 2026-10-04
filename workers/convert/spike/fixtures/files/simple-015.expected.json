@@ -1,0 +1,39 @@
+{
+  "id": "simple-015",
+  "class": "simple",
+  "name": "Oakley Sampleman",
+  "email": "oakley@example.test",
+  "phone": "+1-555-0114",
+  "dates": [
+    "September 2016 – March 2018",
+    "May 2014 – August 2016"
+  ],
+  "employers": [
+    "Demo Studio",
+    "Testfoundry"
+  ],
+  "jobs": [
+    [
+      "Demo Studio",
+      "September 2016 – March 2018",
+      "Frontend Engineer"
+    ],
+    [
+      "Testfoundry",
+      "May 2014 – August 2016",
+      "QA Analyst"
+    ]
+  ],
+  "page_size": "letter",
+  "pages": 1,
+  "font_index": 4,
+  "link": null,
+  "ligatures": false,
+  "index": 14,
+  "held_out": false,
+  "expect_scan_detect": false,
+  "expected_text": "oakley@example.test  ·  +1‐555‐0114\nOakley Sampleman is a fictional frontend engineer used only for converter tests. This fixture contains no\nreal personal data. Work samples describe synthetic products such as the Example Labs onboarding kit and\nthe Sample Corp design system.\nSeptember 2016 – March 2018\n• Led the Oakley conversion checklist for synthetic onboarding at Example Labs.\n• Wrote internal style notes so reviewers could edit role descriptions after export.\nMay 2014 – August 2016\n• Led the Oakley conversion checklist for synthetic onboarding at Example Labs.\n• Wrote internal style notes so reviewers could edit role descriptions after export.\n",
+  "pdf": "fixtures/files/simple-015.pdf",
+  "page_count": 1,
+  "source_char_count": 557
+}

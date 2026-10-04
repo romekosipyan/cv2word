@@ -1,0 +1,14 @@
+---
+description: Next.js converter UI, stages, and accessibility.
+globs: "apps/web/**/*.{ts,tsx,js,jsx,css}"
+alwaysApply: false
+---
+
+# Frontend converter
+
+- Server-render marketing text. Load converter JS progressively.
+- Stages: Uploading, Waiting, Converting, Checking output. No fake percentages.
+- Explicit CTA: Convert resume to Word. Keyboard file picker required.
+- Do not delete on download. Same-tab resume only; no secrets in the URL.
+- Map failures from `vault/06-quality/Failure Catalog.md`.
+- Target WCAG 2.2 AA on the core flow. Verify in the browser, not by screenshot alone.

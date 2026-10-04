@@ -1,0 +1,67 @@
+{
+  "id": "simple-028",
+  "class": "simple",
+  "name": "François Exemple",
+  "email": "francois@example.test",
+  "phone": "+1-555-0127",
+  "dates": [
+    "August 2015 – December 2016",
+    "March 2021 – Present",
+    "April 2018 – February 2021",
+    "September 2016 – March 2018",
+    "September 2016 – March 2018",
+    "September 2016 – March 2018"
+  ],
+  "employers": [
+    "Placeholder Inc",
+    "Mock Industries",
+    "Synthetic Systems",
+    "Demo Studio",
+    "Demo Studio",
+    "Demo Studio"
+  ],
+  "jobs": [
+    [
+      "Placeholder Inc",
+      "August 2015 – December 2016",
+      "Design Intern"
+    ],
+    [
+      "Mock Industries",
+      "March 2021 – Present",
+      "Engineering Manager"
+    ],
+    [
+      "Synthetic Systems",
+      "April 2018 – February 2021",
+      "Backend Engineer"
+    ],
+    [
+      "Demo Studio",
+      "September 2016 – March 2018",
+      "Frontend Engineer"
+    ],
+    [
+      "Demo Studio",
+      "September 2016 – March 2018",
+      "Frontend Engineer"
+    ],
+    [
+      "Demo Studio",
+      "September 2016 – March 2018",
+      "Frontend Engineer"
+    ]
+  ],
+  "page_size": "a4",
+  "pages": 3,
+  "font_index": 2,
+  "link": "https://example.test/francois",
+  "ligatures": true,
+  "index": 27,
+  "held_out": true,
+  "expect_scan_detect": false,
+  "expected_text": "Design Intern\nfrancois@example.test  ∙  +1‐555‐0127  ∙  https://example.test/francois\nFrançois Exemple is a fictional design intern used only for converter tests. This fixture contains no real personal\ndata. Work samples describe synthetic products such as the Example Labs onboarding kit and the Sample Corp\ndesign system. Experience includes ofﬁce afﬁliation work and a difficult onboarding ﬂow.\nDesign Intern, Placeholder Inc\nAugust 2015 – December 2016\n• Led the François conversion checklist for synthetic onboarding at Example Labs.\n• Wrote internal style notes so reviewers could edit role descriptions after export.\nEngineering Manager, Mock Industries\nMarch 2021 – Present\n• Led the François conversion checklist for synthetic onboarding at Example Labs.\n• Wrote internal style notes so reviewers could edit role descriptions after export.\nBackend Engineer, Synthetic Systems\nApril 2018 – February 2021\n• Led the François conversion checklist for synthetic onboarding at Example Labs.\n• Wrote internal style notes so reviewers could edit role descriptions after export.\nFrontend Engineer, Demo Studio\nSeptember 2016 – March 2018\n• Led the François conversion checklist for synthetic onboarding at Example Labs.\n• Wrote internal style notes so reviewers could edit role descriptions after export.\nPython ∙ SQL ∙ Figma ∙ Accessibility ∙ Documentation\nB.A. Design, Example University, 2015\n\nFrontend Engineer, Demo Studio  ∙  September 2016 – March 2018\n• Extended the synthetic corpus with extra pages for pagination checks.\n• Kept facts stable across Letter and A4 variants.\n• Reviewed heading and bullet boundaries after export.\n\nFrontend Engineer, Demo Studio  ∙  September 2016 – March 2018\n• Extended the synthetic corpus with extra pages for pagination checks.\n• Kept facts stable across Letter and A4 variants.\n• Reviewed heading and bullet boundaries after export.\n",
+  "pdf": "fixtures/files/simple-028.pdf",
+  "page_count": 3,
+  "source_char_count": 1591
+}

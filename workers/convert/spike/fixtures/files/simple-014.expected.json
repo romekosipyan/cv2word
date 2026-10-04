@@ -1,0 +1,39 @@
+{
+  "id": "simple-014",
+  "class": "simple",
+  "name": "Nico Exampleton",
+  "email": "nico@example.test",
+  "phone": "+1-555-0113",
+  "dates": [
+    "April 2018 – February 2021",
+    "September 2016 – March 2018"
+  ],
+  "employers": [
+    "Synthetic Systems",
+    "Demo Studio"
+  ],
+  "jobs": [
+    [
+      "Synthetic Systems",
+      "April 2018 – February 2021",
+      "Backend Engineer"
+    ],
+    [
+      "Demo Studio",
+      "September 2016 – March 2018",
+      "Frontend Engineer"
+    ]
+  ],
+  "page_size": "a4",
+  "pages": 1,
+  "font_index": 3,
+  "link": null,
+  "ligatures": false,
+  "index": 13,
+  "held_out": false,
+  "expect_scan_detect": false,
+  "expected_text": "Nico Exampleton\nBackend Engineer\nnico@example.test  ·  +1­555­0113\nNico Exampleton is a fictional backend engineer used only for converter tests. This fixture contains no\nreal personal data. Work samples describe synthetic products such as the Example Labs onboarding kit\nand the Sample Corp design system.\nBackend Engineer, Synthetic Systems\nApril 2018 – February 2021\n• Led the Nico conversion checklist for synthetic onboarding at Example Labs.\n• Wrote internal style notes so reviewers could edit role descriptions after export.\nFrontend Engineer, Demo Studio\nSeptember 2016 – March 2018\n• Led the Nico conversion checklist for synthetic onboarding at Example Labs.\n• Wrote internal style notes so reviewers could edit role descriptions after export.\nPython · SQL · Figma · Accessibility · Documentation\nB.A. Design, Example University, 2015\n",
+  "pdf": "fixtures/files/simple-014.pdf",
+  "page_count": 1,
+  "source_char_count": 718
+}
