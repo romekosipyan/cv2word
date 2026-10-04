@@ -17,3 +17,4 @@ aliases:
 - [[Acceptance Criteria]]
 - [[SPEC-FIDELITY]]
 - [[SPEC-A11Y]]
+- [[External Spotcheck 2026-10-04]]

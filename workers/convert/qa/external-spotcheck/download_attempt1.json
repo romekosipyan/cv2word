@@ -1,0 +1,79 @@
+[
+  {
+    "id": "ext-01",
+    "name": "deedy-two-column.pdf",
+    "bytes": 67608,
+    "ok": true,
+    "url": "https://raw.githubusercontent.com/deedydas/Deedy-Resume/master/OpenFonts/deedy_resume-openfont.pdf"
+  },
+  {
+    "id": "ext-02",
+    "name": "sb2nov-resume.pdf",
+    "bytes": 0,
+    "ok": false,
+    "url": "https://raw.githubusercontent.com/sb2nov/resume/master/resume.pdf",
+    "err": "Response status code does not indicate success: 404 (Not Found)."
+  },
+  {
+    "id": "ext-03",
+    "name": "jakegut-resume.pdf",
+    "bytes": 0,
+    "ok": false,
+    "url": "https://github.com/jakegut/resume/raw/master/resume.pdf",
+    "err": "Response status code does not indicate success: 404 (Not Found)."
+  },
+  {
+    "id": "ext-04",
+    "name": "awesome-cv-resume.pdf",
+    "bytes": 120187,
+    "ok": true,
+    "url": "https://raw.githubusercontent.com/posquit0/Awesome-CV/master/examples/resume.pdf"
+  },
+  {
+    "id": "ext-05",
+    "name": "awesome-cv-cv.pdf",
+    "bytes": 128604,
+    "ok": true,
+    "url": "https://raw.githubusercontent.com/posquit0/Awesome-CV/master/examples/cv.pdf"
+  },
+  {
+    "id": "ext-06",
+    "name": "mcdowell-cv.pdf",
+    "bytes": 0,
+    "ok": false,
+    "url": "https://github.com/dnl-blkv/mcdowell-cv/raw/master/McDowell_CV.pdf",
+    "err": "Response status code does not indicate success: 404 (Not Found)."
+  },
+  {
+    "id": "ext-07",
+    "name": "lihaoyi-resume.pdf",
+    "bytes": 0,
+    "ok": false,
+    "url": "https://raw.githubusercontent.com/lihaoyi/resume/master/resume.pdf",
+    "err": "Response status code does not indicate success: 404 (Not Found)."
+  },
+  {
+    "id": "ext-08",
+    "name": "universal-resume-letter.pdf",
+    "bytes": 0,
+    "ok": false,
+    "url": "https://github.com/WebPraktikos/universal-resume/raw/master/docs/letter.pdf",
+    "err": "Response status code does not indicate success: 404 (Not Found)."
+  },
+  {
+    "id": "ext-09",
+    "name": "w3c-sample.pdf",
+    "bytes": 0,
+    "ok": false,
+    "url": "https://www.w3.org/WAI/WCAG21/working-examples/pdf-img/img.pdf",
+    "err": "Response status code does not indicate success: 404 (Not Found)."
+  },
+  {
+    "id": "ext-10",
+    "name": "packard-resume.pdf",
+    "bytes": 0,
+    "ok": false,
+    "url": "https://raw.githubusercontent.com/TheGrandPackard/resume/master/Resume.pdf",
+    "err": "Response status code does not indicate success: 404 (Not Found)."
+  }
+]

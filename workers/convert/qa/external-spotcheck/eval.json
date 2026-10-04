@@ -1,0 +1,577 @@
+{
+  "generated_at": "2026-10-04T17:29:35.716338+00:00",
+  "converter_path": "local Python pdf2docx==0.5.13 via workers/convert/.venv (mirrors apps/web pyodideConvert + engine/convert.py kwargs)",
+  "pymupdf": "1.28.2 (worker pin; client Pyodide uses 1.27.2.3 wheel)",
+  "results": [
+    {
+      "id": "ext-01",
+      "file": "ext-01-latexcv-classic.pdf",
+      "layout_class": "simple",
+      "conversion": {
+        "ok": true,
+        "error": null,
+        "bytes": 39036,
+        "elapsed_s": 0.250622
+      },
+      "evaluation": {
+        "openable": true,
+        "editable_native_text": true,
+        "docx_paras": 26,
+        "docx_tables": 0,
+        "docx_images": 0,
+        "body_text_chars": 2798,
+        "char_completeness": {
+          "recall": 0.9967,
+          "precision": 0.9934,
+          "pdf_norm_chars": 2423,
+          "docx_norm_chars": 2431
+        },
+        "critical_facts": {
+          "email_preserved": true,
+          "email_hits": "1/1",
+          "phone_preserved": true,
+          "phone_hits": "3/3",
+          "dates_mostly_preserved": true,
+          "date_hits": "11/11",
+          "name_line_preserved": true,
+          "employer_like_hits": "4/5",
+          "employers_mostly_preserved": true
+        },
+        "reading_order": {
+          "section_headers_checked": 3,
+          "section_headers_found_in_docx": 3,
+          "header_order_nondecreasing": true,
+          "suspect_column_interleave": false
+        },
+        "pdf_link_count": 0,
+        "docx_hyperlink_count": 0,
+        "links_note": "no_pdf_links",
+        "visual_structure": {
+          "many_tables": false,
+          "image_count_docx": 0,
+          "image_count_pdf": 0,
+          "likely_spacing_or_structure_heavy": true
+        },
+        "visual_issues": {
+          "images_dropped": false,
+          "images_reduced": false,
+          "complex_drawings_in_pdf": false,
+          "many_bogus_tables_risk": false
+        }
+      }
+    },
+    {
+      "id": "ext-02",
+      "file": "ext-02-latexcv-minimalistic.pdf",
+      "layout_class": "simple",
+      "conversion": {
+        "ok": true,
+        "error": null,
+        "bytes": 372454,
+        "elapsed_s": 0.483519
+      },
+      "evaluation": {
+        "openable": true,
+        "editable_native_text": true,
+        "docx_paras": 90,
+        "docx_tables": 0,
+        "docx_images": 1,
+        "body_text_chars": 6205,
+        "char_completeness": {
+          "recall": 0.9148,
+          "precision": 0.9984,
+          "pdf_norm_chars": 5976,
+          "docx_norm_chars": 5476
+        },
+        "critical_facts": {
+          "email_preserved": false,
+          "email_hits": "0/1",
+          "phone_preserved": false,
+          "phone_hits": "2/3",
+          "dates_mostly_preserved": true,
+          "date_hits": "12/12",
+          "name_line_preserved": true,
+          "employer_like_hits": "4/5",
+          "employers_mostly_preserved": true
+        },
+        "reading_order": {
+          "section_headers_checked": 8,
+          "section_headers_found_in_docx": 8,
+          "header_order_nondecreasing": true,
+          "suspect_column_interleave": false
+        },
+        "pdf_link_count": 16,
+        "docx_hyperlink_count": 19,
+        "links_note": "links_present_in_docx",
+        "visual_structure": {
+          "many_tables": false,
+          "image_count_docx": 1,
+          "image_count_pdf": 1,
+          "likely_spacing_or_structure_heavy": false
+        },
+        "visual_issues": {
+          "images_dropped": false,
+          "images_reduced": false,
+          "complex_drawings_in_pdf": false,
+          "many_bogus_tables_risk": false
+        }
+      }
+    },
+    {
+      "id": "ext-03",
+      "file": "ext-03-latexcv-rows.pdf",
+      "layout_class": "simple",
+      "conversion": {
+        "ok": true,
+        "error": null,
+        "bytes": 747040,
+        "elapsed_s": 0.599236
+      },
+      "evaluation": {
+        "openable": true,
+        "editable_native_text": true,
+        "docx_paras": 42,
+        "docx_tables": 0,
+        "docx_images": 16,
+        "body_text_chars": 2520,
+        "char_completeness": {
+          "recall": 0.991,
+          "precision": 0.9986,
+          "pdf_norm_chars": 2227,
+          "docx_norm_chars": 2210
+        },
+        "critical_facts": {
+          "email_preserved": true,
+          "email_hits": "1/1",
+          "phone_preserved": true,
+          "phone_hits": "3/3",
+          "dates_mostly_preserved": true,
+          "date_hits": "12/12",
+          "name_line_preserved": true,
+          "employer_like_hits": "5/5",
+          "employers_mostly_preserved": true
+        },
+        "reading_order": {
+          "section_headers_checked": 3,
+          "section_headers_found_in_docx": 3,
+          "header_order_nondecreasing": false,
+          "suspect_column_interleave": false
+        },
+        "pdf_link_count": 0,
+        "docx_hyperlink_count": 0,
+        "links_note": "no_pdf_links",
+        "visual_structure": {
+          "many_tables": false,
+          "image_count_docx": 16,
+          "image_count_pdf": 1,
+          "likely_spacing_or_structure_heavy": false
+        },
+        "visual_issues": {
+          "images_dropped": false,
+          "images_reduced": false,
+          "complex_drawings_in_pdf": true,
+          "many_bogus_tables_risk": false
+        }
+      }
+    },
+    {
+      "id": "ext-04",
+      "file": "ext-04-ice1000-resume.pdf",
+      "layout_class": "simple",
+      "conversion": {
+        "ok": true,
+        "error": null,
+        "bytes": 41277,
+        "elapsed_s": 0.783711
+      },
+      "evaluation": {
+        "openable": true,
+        "editable_native_text": true,
+        "docx_paras": 26,
+        "docx_tables": 0,
+        "docx_images": 0,
+        "body_text_chars": 3851,
+        "char_completeness": {
+          "recall": 0.907,
+          "precision": 1.0,
+          "pdf_norm_chars": 3644,
+          "docx_norm_chars": 3305
+        },
+        "critical_facts": {
+          "email_preserved": false,
+          "email_hits": "0/1",
+          "phone_preserved": false,
+          "phone_hits": "0/1",
+          "dates_mostly_preserved": true,
+          "date_hits": "11/12",
+          "name_line_preserved": true,
+          "employer_like_hits": "5/5",
+          "employers_mostly_preserved": true
+        },
+        "reading_order": {
+          "section_headers_checked": 3,
+          "section_headers_found_in_docx": 3,
+          "header_order_nondecreasing": true,
+          "suspect_column_interleave": false
+        },
+        "pdf_link_count": 25,
+        "docx_hyperlink_count": 53,
+        "links_note": "links_present_in_docx",
+        "visual_structure": {
+          "many_tables": false,
+          "image_count_docx": 0,
+          "image_count_pdf": 0,
+          "likely_spacing_or_structure_heavy": true
+        },
+        "visual_issues": {
+          "images_dropped": false,
+          "images_reduced": false,
+          "complex_drawings_in_pdf": true,
+          "many_bogus_tables_risk": false
+        }
+      }
+    },
+    {
+      "id": "ext-05",
+      "file": "ext-05-deedy-two-column.pdf",
+      "layout_class": "two_column",
+      "conversion": {
+        "ok": true,
+        "error": null,
+        "bytes": 40310,
+        "elapsed_s": 0.466681
+      },
+      "evaluation": {
+        "openable": true,
+        "editable_native_text": true,
+        "docx_paras": 24,
+        "docx_tables": 0,
+        "docx_images": 0,
+        "body_text_chars": 3157,
+        "char_completeness": {
+          "recall": 0.9359,
+          "precision": 1.0,
+          "pdf_norm_chars": 2792,
+          "docx_norm_chars": 2613
+        },
+        "critical_facts": {
+          "email_preserved": false,
+          "email_hits": "0/2",
+          "phone_preserved": false,
+          "phone_hits": "0/1",
+          "dates_mostly_preserved": true,
+          "date_hits": "12/12",
+          "name_line_preserved": true,
+          "employer_like_hits": "4/5",
+          "employers_mostly_preserved": true
+        },
+        "reading_order": {
+          "section_headers_checked": 8,
+          "section_headers_found_in_docx": 8,
+          "header_order_nondecreasing": true,
+          "suspect_column_interleave": false
+        },
+        "pdf_link_count": 13,
+        "docx_hyperlink_count": 19,
+        "links_note": "links_present_in_docx",
+        "visual_structure": {
+          "many_tables": false,
+          "image_count_docx": 0,
+          "image_count_pdf": 0,
+          "likely_spacing_or_structure_heavy": true
+        },
+        "visual_issues": {
+          "images_dropped": false,
+          "images_reduced": false,
+          "complex_drawings_in_pdf": false,
+          "many_bogus_tables_risk": false
+        }
+      }
+    },
+    {
+      "id": "ext-06",
+      "file": "ext-06-latexcv-two-column.pdf",
+      "layout_class": "two_column",
+      "conversion": {
+        "ok": true,
+        "error": null,
+        "bytes": 443189,
+        "elapsed_s": 0.745702
+      },
+      "evaluation": {
+        "openable": true,
+        "editable_native_text": true,
+        "docx_paras": 67,
+        "docx_tables": 0,
+        "docx_images": 27,
+        "body_text_chars": 3044,
+        "char_completeness": {
+          "recall": 0.9985,
+          "precision": 0.997,
+          "pdf_norm_chars": 2688,
+          "docx_norm_chars": 2692
+        },
+        "critical_facts": {
+          "email_preserved": true,
+          "email_hits": "1/1",
+          "phone_preserved": true,
+          "phone_hits": "3/3",
+          "dates_mostly_preserved": true,
+          "date_hits": "12/12",
+          "name_line_preserved": true,
+          "employer_like_hits": "5/5",
+          "employers_mostly_preserved": true
+        },
+        "reading_order": {
+          "section_headers_checked": 4,
+          "section_headers_found_in_docx": 4,
+          "header_order_nondecreasing": true,
+          "suspect_column_interleave": false
+        },
+        "pdf_link_count": 0,
+        "docx_hyperlink_count": 0,
+        "links_note": "no_pdf_links",
+        "visual_structure": {
+          "many_tables": false,
+          "image_count_docx": 27,
+          "image_count_pdf": 2,
+          "likely_spacing_or_structure_heavy": false
+        },
+        "visual_issues": {
+          "images_dropped": false,
+          "images_reduced": false,
+          "complex_drawings_in_pdf": true,
+          "many_bogus_tables_risk": false
+        }
+      }
+    },
+    {
+      "id": "ext-07",
+      "file": "ext-07-latexcv-sidebar.pdf",
+      "layout_class": "two_column",
+      "conversion": {
+        "ok": true,
+        "error": null,
+        "bytes": 751488,
+        "elapsed_s": 0.878134
+      },
+      "evaluation": {
+        "openable": true,
+        "editable_native_text": true,
+        "docx_paras": 50,
+        "docx_tables": 0,
+        "docx_images": 4,
+        "body_text_chars": 2297,
+        "char_completeness": {
+          "recall": 0.9723,
+          "precision": 0.999,
+          "pdf_norm_chars": 2163,
+          "docx_norm_chars": 2105
+        },
+        "critical_facts": {
+          "email_preserved": false,
+          "email_hits": "1/2",
+          "phone_preserved": true,
+          "phone_hits": "3/3",
+          "dates_mostly_preserved": true,
+          "date_hits": "11/12",
+          "name_line_preserved": true,
+          "employer_like_hits": "5/5",
+          "employers_mostly_preserved": true
+        },
+        "reading_order": {
+          "section_headers_checked": 8,
+          "section_headers_found_in_docx": 8,
+          "header_order_nondecreasing": false,
+          "suspect_column_interleave": true
+        },
+        "pdf_link_count": 4,
+        "docx_hyperlink_count": 3,
+        "links_note": "links_present_in_docx",
+        "visual_structure": {
+          "many_tables": false,
+          "image_count_docx": 4,
+          "image_count_pdf": 2,
+          "likely_spacing_or_structure_heavy": false
+        },
+        "visual_issues": {
+          "images_dropped": false,
+          "images_reduced": false,
+          "complex_drawings_in_pdf": true,
+          "many_bogus_tables_risk": false
+        }
+      }
+    },
+    {
+      "id": "ext-08",
+      "file": "ext-08-awesome-cv-resume.pdf",
+      "layout_class": "two_column",
+      "conversion": {
+        "ok": true,
+        "error": null,
+        "bytes": 43709,
+        "elapsed_s": 1.095113
+      },
+      "evaluation": {
+        "openable": true,
+        "editable_native_text": true,
+        "docx_paras": 90,
+        "docx_tables": 0,
+        "docx_images": 0,
+        "body_text_chars": 9413,
+        "char_completeness": {
+          "recall": 0.9931,
+          "precision": 1.0,
+          "pdf_norm_chars": 8241,
+          "docx_norm_chars": 8184
+        },
+        "critical_facts": {
+          "email_preserved": false,
+          "email_hits": "0/1",
+          "phone_preserved": false,
+          "phone_hits": "1/2",
+          "dates_mostly_preserved": true,
+          "date_hits": "12/12",
+          "name_line_preserved": true,
+          "employer_like_hits": "4/5",
+          "employers_mostly_preserved": true
+        },
+        "reading_order": {
+          "section_headers_checked": 3,
+          "section_headers_found_in_docx": 3,
+          "header_order_nondecreasing": true,
+          "suspect_column_interleave": false
+        },
+        "pdf_link_count": 5,
+        "docx_hyperlink_count": 8,
+        "links_note": "links_present_in_docx",
+        "visual_structure": {
+          "many_tables": false,
+          "image_count_docx": 0,
+          "image_count_pdf": 0,
+          "likely_spacing_or_structure_heavy": true
+        },
+        "visual_issues": {
+          "images_dropped": false,
+          "images_reduced": false,
+          "complex_drawings_in_pdf": false,
+          "many_bogus_tables_risk": false
+        }
+      }
+    },
+    {
+      "id": "ext-09",
+      "file": "ext-09-latexcv-modern.pdf",
+      "layout_class": "complex_graphic",
+      "conversion": {
+        "ok": true,
+        "error": null,
+        "bytes": 746816,
+        "elapsed_s": 0.626118
+      },
+      "evaluation": {
+        "openable": true,
+        "editable_native_text": true,
+        "docx_paras": 38,
+        "docx_tables": 0,
+        "docx_images": 25,
+        "body_text_chars": 2389,
+        "char_completeness": {
+          "recall": 0.9986,
+          "precision": 0.9971,
+          "pdf_norm_chars": 2085,
+          "docx_norm_chars": 2088
+        },
+        "critical_facts": {
+          "email_preserved": true,
+          "email_hits": "1/1",
+          "phone_preserved": true,
+          "phone_hits": "3/3",
+          "dates_mostly_preserved": true,
+          "date_hits": "12/12",
+          "name_line_preserved": true,
+          "employer_like_hits": "5/5",
+          "employers_mostly_preserved": true
+        },
+        "reading_order": {
+          "section_headers_checked": 3,
+          "section_headers_found_in_docx": 3,
+          "header_order_nondecreasing": true,
+          "suspect_column_interleave": false
+        },
+        "pdf_link_count": 0,
+        "docx_hyperlink_count": 0,
+        "links_note": "no_pdf_links",
+        "visual_structure": {
+          "many_tables": false,
+          "image_count_docx": 25,
+          "image_count_pdf": 1,
+          "likely_spacing_or_structure_heavy": false
+        },
+        "visual_issues": {
+          "images_dropped": false,
+          "images_reduced": false,
+          "complex_drawings_in_pdf": true,
+          "many_bogus_tables_risk": false
+        }
+      }
+    },
+    {
+      "id": "ext-10",
+      "file": "ext-10-latexcv-infographics.pdf",
+      "layout_class": "complex_graphic",
+      "conversion": {
+        "ok": true,
+        "error": null,
+        "bytes": 144599,
+        "elapsed_s": 0.662558
+      },
+      "evaluation": {
+        "openable": true,
+        "editable_native_text": true,
+        "docx_paras": 30,
+        "docx_tables": 0,
+        "docx_images": 1,
+        "body_text_chars": 1523,
+        "char_completeness": {
+          "recall": 0.9969,
+          "precision": 0.9931,
+          "pdf_norm_chars": 1302,
+          "docx_norm_chars": 1307
+        },
+        "critical_facts": {
+          "email_preserved": true,
+          "email_hits": "1/1",
+          "phone_preserved": false,
+          "phone_hits": "0/1",
+          "dates_mostly_preserved": true,
+          "date_hits": "12/12",
+          "name_line_preserved": true,
+          "employer_like_hits": "5/5",
+          "employers_mostly_preserved": true
+        },
+        "reading_order": {
+          "section_headers_checked": 8,
+          "section_headers_found_in_docx": 8,
+          "header_order_nondecreasing": false,
+          "suspect_column_interleave": true
+        },
+        "pdf_link_count": 0,
+        "docx_hyperlink_count": 0,
+        "links_note": "no_pdf_links",
+        "visual_structure": {
+          "many_tables": false,
+          "image_count_docx": 1,
+          "image_count_pdf": 0,
+          "likely_spacing_or_structure_heavy": false
+        },
+        "visual_issues": {
+          "images_dropped": false,
+          "images_reduced": false,
+          "complex_drawings_in_pdf": true,
+          "many_bogus_tables_risk": false
+        }
+      }
+    }
+  ]
+}
