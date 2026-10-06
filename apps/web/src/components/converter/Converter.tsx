@@ -11,10 +11,12 @@ import {
 } from "react";
 
 import {
+  CONVERT_CTA,
   FIDELITY_WARNING,
   PRIMARY_CTA,
   PRIVACY_SUMMARY,
   SUPPORTED_SUMMARY,
+  TEXT_PDF_NOTE,
 } from "@/lib/copy";
 import { emitFileSelected } from "@/lib/events";
 import { MAX_PAGES, MAX_UPLOAD_BYTES, MIN_PAGES } from "@/lib/pdf/limits";
@@ -531,6 +533,7 @@ export default function Converter() {
     <section className="panel" aria-labelledby="converter-heading">
       <h2 id="converter-heading">Convert your resume</h2>
       <p className="hint">{SUPPORTED_SUMMARY}</p>
+      <p className="hint">{TEXT_PDF_NOTE}</p>
 
       <p className="warning" role="note">
         {FIDELITY_WARNING}
@@ -578,14 +581,14 @@ export default function Converter() {
               onClick={openPicker}
               disabled={formLocked}
             >
-              Choose PDF
+              {PRIMARY_CTA}
             </button>
             <span className="file-name" aria-live="polite">
               {file ? file.name : "No file selected"}
             </span>
           </div>
           <p className="hint">
-            Use Choose PDF (keyboard-accessible). Drag-and-drop is optional.
+            Use {PRIMARY_CTA} (keyboard-accessible). Drag-and-drop is optional.
             Selecting a file does not start conversion.
           </p>
           <input
@@ -608,7 +611,7 @@ export default function Converter() {
           className="btn btn-primary"
           disabled={formLocked || !file || Boolean(advisoryError)}
         >
-          {busy ? "Working…" : PRIMARY_CTA}
+          {busy ? "Working…" : CONVERT_CTA}
         </button>
       </form>
 

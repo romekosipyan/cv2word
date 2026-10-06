@@ -130,7 +130,11 @@ export class FilesystemObjectStorage implements ObjectStorage {
     }
   }
 
-  async putObject(objectKey: string, body: Buffer): Promise<void> {
+  async putObject(
+    objectKey: string,
+    body: Buffer,
+    _contentType?: string,
+  ): Promise<void> {
     this.assertWritable(objectKey);
     const full = this.resolve(objectKey);
     await fs.mkdir(path.dirname(full), { recursive: true });
@@ -171,7 +175,7 @@ export class FilesystemObjectStorage implements ObjectStorage {
     keyPrefix: string,
     out: string[],
   ): Promise<void> {
-    let entries: Awaited<ReturnType<typeof fs.readdir>>;
+    let entries;
     try {
       entries = await fs.readdir(dir, { withFileTypes: true });
     } catch {
