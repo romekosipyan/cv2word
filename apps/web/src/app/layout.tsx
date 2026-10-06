@@ -17,9 +17,9 @@ const plex = IBM_Plex_Sans({
 });
 
 export const metadata = {
-  title: "ResumeToWord — Convert a PDF resume to Word without uploading",
+  title: "ResumeToWord — PDF resume to editable Word",
   description:
-    "Turn a text-based PDF resume or CV into an editable Word file in your browser. Your file isn't uploaded. Free preview, $1.99 to download.",
+    "Anonymous, free PDF to editable Word conversion. Formatting may change. Review your resume after conversion.",
 };
 
 export default function RootLayout({ children }: { children: ReactNode }) {
